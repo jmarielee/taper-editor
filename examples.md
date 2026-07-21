@@ -371,11 +371,11 @@ I read your whole plan. Here's what I found, most important first.
 
 **Your plan says:** "Saturday — 15-minute bike, 10-minute run" ... "Sunday — Race Day."
 
-**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so evaluating it required an anchor, and that anchor is an assumption on the record, not a fact: your prompt says only "next year." The event ran Saturday, July 12, 2025 and is officially scheduled for Saturday, July 11, 2026 (the race's own site); no 2027 date is published yet. On that second-Saturday pattern, race day would be Saturday, July 10, 2027 — placing your race week across July 5–11, 2027. Under the plan's own day-by-day template, the day it calls a light shakeout is the assumed race day, and the day it calls "Race Day" is the Sunday after the race already happened.
+**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so I anchored it using the pattern in the two years I could check — the race fell on Sat July 12 in 2025 and is scheduled for Sat July 11 in 2026, always the second Saturday of the month. No 2027 date has been published yet, so July 10, 2027 is my best estimate from that pattern, not a confirmed date. Under that estimate, your race week falls across July 5–11, 2027, with race day landing on a Saturday. Under the plan's own day-by-day template, the day it calls a light shakeout is the estimated race day, and the day it calls "Race Day" is the Sunday after.
 
 **What it costs you:** if you followed the plan's labels as written, you'd expect one more easy day between your shakeout and the start line. There isn't one.
 
-**Your call:** what is the confirmed 2027 race date — and once you have it, which governs: the plan's generic Saturday/Sunday template, or that date?
+**Your call:** which governs — the plan's generic Saturday/Sunday template, or the real date, once you confirm it?
 
 ---
 
