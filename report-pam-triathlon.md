@@ -4,9 +4,15 @@ Source: AI-generated triathlon training plan, provided by an external witness
 (Pam), reviewed with her consent. Prompt named the race and its recurrence
 rule ("Anchor Bay Triathlon ... always the second weekend in July"); the
 AI-generated plan text itself names no race, contains no identifying detail.
-Race date anchored to 2027-07-10 (Saturday), confirmed against the event's
-public schedule (anchorbaytri.com and independent race calendars, checked
-2026-07-20).
+Race date anchored to 2027-07-10 (Saturday) — an assumption, not a
+confirmed date. The athlete's prompt states only "next year," with no date
+and no scheduling rule. The event ran Sat 2025-07-12 and is scheduled Sat
+2026-07-11 (event's official site, checked 2026-07-21); no 2027 date is
+published. 2027-07-10 follows the second-Saturday pattern observed in
+those two years. (Corrected 2026-07-21: an earlier version of this note
+called the date publicly scheduled and attributed the pattern to the
+athlete's prompt; neither was supported. The anchor date itself is
+unchanged.)
 Ledger: pam-triathlon.ledger (built from the plan's stated structure; most
 rows uncomputable by design — see Finding on the BLOCK below).
 Receipt: runs/2026-07-20-pam-triathlon-run.txt — VERDICT: BLOCK, exit code 2.
@@ -15,13 +21,6 @@ Quote note: the source plan formats each session across multiple short lines
 line-broken formatting into single lines; every word appears contiguously in
 evidence-pam-triathlon-verbatim.md, verified with whitespace-normalized
 matching 2026-07-20. No words were added or joined across sessions.
->>> CORRECTED 2026-07-21: the calendar finding previously called July 10, 2027
->>> "publicly scheduled" and attributed the second-weekend pattern to the
->>> athlete's prompt. Both claims were unsupported: the prompt says only "next
->>> year," and no 2027 date is published (2025 ran Sat Jul 12; 2026 is Sat
->>> Jul 11, per the event's official site, checked 2026-07-21). The date anchor
->>> itself is unchanged and is now labeled the assumption it always was. The
->>> as-sent witness PDF preserves the original wording; it is not edited.
 -->
 
 # The Taper Editor — report on your triathlon plan
@@ -48,11 +47,11 @@ I read your whole plan. Here's what I found, most important first.
 
 **Your plan says:** "Saturday — 15-minute bike, 10-minute run" ... "Sunday — Race Day."
 
-**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so evaluating it required an anchor, and that anchor is an assumption on the record, not a fact: your prompt says only "next year." The event ran Saturday, July 12, 2025 and is officially scheduled for Saturday, July 11, 2026 (the race's own site); no 2027 date is published yet. On that second-Saturday pattern, race day would be Saturday, July 10, 2027 — placing your race week across July 5–11, 2027. Under the plan's own day-by-day template, the day it calls a light shakeout is the assumed race day, and the day it calls "Race Day" is the Sunday after the race already happened.
+**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so I anchored it using the pattern in the two years I could check — the race fell on Sat July 12 in 2025 and is scheduled for Sat July 11 in 2026, always the second Saturday of the month. No 2027 date has been published yet, so July 10, 2027 is my best estimate from that pattern, not a confirmed date. Under that estimate, your race week falls across July 5–11, 2027, with race day landing on a Saturday. Under the plan's own day-by-day template, the day it calls a light shakeout is the estimated race day, and the day it calls "Race Day" is the Sunday after.
 
 **What it costs you:** if you followed the plan's labels as written, you'd expect one more easy day between your shakeout and the start line. There isn't one.
 
-**Your call:** what is the confirmed 2027 race date — and once you have it, which governs: the plan's generic Saturday/Sunday template, or that date?
+**Your call:** which governs — the plan's generic Saturday/Sunday template, or the real date, once you confirm it?
 
 ---
 
@@ -83,3 +82,22 @@ I read your whole plan. Here's what I found, most important first.
 ### Where this leaves you
 
 The block above stands until the distance-based sessions have paces attached — that's a data gap, not necessarily a training problem, and it's fixable with a handful of numbers. The three findings below it are independent of the block and stand regardless of how it resolves. This report points at the plan; it doesn't rewrite it. Your call, on all of it.
+
+### Witness reaction (2026-07-20, verbatim, consent given)
+
+> This was actually very helpful!  Now that it's been pointed out to me (thanks, AI!) I can't unsee that the original plan was written with both distances and times.  That IS a huge red flag, especially if your true intention is to taper before race day. The lack of consistency in the original training plan seems glaring now.
+>
+> I do like that it points out the need to provide a few pacing data points. And that I should have provided a race date. I'm exactly the kind of person who would start a 12 week training plan that ends on a Sunday even though my race would fall the day before that. (Who's looking 12 weeks ahead like that?)
+>
+> Overall, I think your math rules worked exactly as intended. That plan SHOULD have failed; it looks good at a cursory glance but a deeper dive shows the inconsistencies could absolutely lead to overtraining.
+>
+> Regards,
+> Pam
+
+Recorded as-is, unedited — and note what it does to the tool's own framing.
+`LIMITATIONS.md` presents this block as a false positive: the math was
+right for its input, wrong about the training. The athlete read the same
+evidence and disagreed — she says the block was *correct*, because a plan
+that mixes distances and times so inconsistently is itself the hazard, not
+just a unit this tool can't count. Tool says data gap; user says real flag.
+That disagreement is kept unresolved, on the record, which is the point.
