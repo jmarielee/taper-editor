@@ -3,10 +3,15 @@
 # 2026-07-20 from the committed source text and verified to reproduce
 # runs/2026-07-20-pam-triathlon-run.txt exactly.
 # Anchoring: the plan states no dates, only week numbers and weekday names.
-# Anchored per the one fact in the athlete's prompt: the race is always the
-# second weekend in July — Saturday 2027-07-10 (event's public schedule,
-# checked 2026-07-20). Under that anchor the plan's own "Sunday Race Day"
-# lands on 2027-07-11, the day AFTER the real race — reported as a finding.
+# ASSUMED anchor, recorded as an assumption: the athlete's prompt says only
+# "next year" — no date, no scheduling rule. The event ran Sat 2025-07-12
+# and is scheduled Sat 2026-07-11 (event's official site, checked
+# 2026-07-21); no 2027 date is published. On that second-Saturday pattern,
+# race day = 2027-07-10. Under that anchor the plan's own "Sunday Race Day"
+# lands on 2027-07-11, the day AFTER the assumed date — reported as a
+# finding. (Corrected 2026-07-21: an earlier comment here called the date
+# publicly scheduled and attributed the pattern to the athlete's prompt;
+# both were unsupported. The date anchor itself is unchanged.)
 # race_priority: goal — the athlete's prompt declares it ("I'd like to
 # improve my time from this year"; the whole plan builds to this race).
 # Durations: most sessions are stated in yards and miles with no pace, or as
