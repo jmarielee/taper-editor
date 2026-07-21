@@ -1,0 +1,11 @@
+PASS  weekday_mismatch (expect FINDINGS + [WEEKDAY])  (exit 1, wanted 1; marker found)
+PASS  total_mismatch (expect FINDINGS + [TOTAL])  (exit 1, wanted 1; marker found)
+PASS  goal_race_rising_load (expect BLOCK)  (exit 2, wanted 2; marker found)
+PASS  undeclared_race (expect HOLD + one question)  (exit 3, wanted 3; marker found)
+PASS  training_race_stand_down (expect no gate; declaration recorded)  (exit 0, wanted 0; marker found)
+PASS  goal_race_unverifiable_race_week (expect HOLD — cannot pass unverified)  (exit 3, wanted 3; marker found)
+PASS  mixed_unit_baseline_false_block (KNOWN LIMITATION pinned — expect BLOCK)  (exit 2, wanted 2; marker found)
+PASS  control_clean_taper (expect CLEAN — this must NOT fire)  (exit 0, wanted 0; marker found)
+
+selftest: 8/8 passed
+exit code: 0

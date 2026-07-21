@@ -1,26 +1,36 @@
 # The Taper Editor
 
-An editor for AI-generated endurance training plans — running and triathlon. It doesn't rewrite your plan and it doesn't coach your body. It reads what an AI wrote for you, checks it against eight structural rules and one deterministic race-week check, and hands it back with findings: what the plan says, what rule it breaks, what that costs you, and a question for you to answer. You decide what to do with it.
+An editor for AI-generated endurance training plans — running and triathlon — with particular authority over the final phase: whether the calendar, the workload, and the race-week claims support an actual taper. It doesn't rewrite your plan and it doesn't coach your body. It reads what an AI wrote for you, checks it against eight structural rules and one deterministic race-week check, and hands it back with findings: what the plan says, what rule it breaks, what that costs you, and a question for you to answer. You decide what to do with it.
 
 Built for Clief Notes Comp #9. Domain: AI-generated endurance training plans, for the runner or triathlete about to follow one.
 
+## The sixty-second version
+
+Paste an AI-generated endurance plan into this editor. You get back at most five findings, ranked by consequence, each in the same four-part shape: **Your plan says** (the exact line, quoted) → **The problem** (the rule it breaks, in plain English) → **What it costs you** → **Your call** (a question — never a rewritten line).
+
+Here is a real one, excerpted from a committed report (`report-trap-plan-block.md`; machine receipt `runs/2026-07-19-trap-plan-run.txt`):
+
+> **Your plan says:** "Mon, July 7 — LONG BRICK 90 min (ride 60 + run 30) — biggest session of the block, bank the fitness now."
+>
+> **The problem:** *Race-week load* — when a race is your goal race, the final seven days have to wind down compared to the training that came before. [...] your plan fails it two ways, by machine count, not by my impression: Your final week averages **47 minutes of training a day**. The rest of your plan averaged **46**. Race week isn't lighter — it's heavier. [...] The single biggest training day of your entire plan — **90 minutes** — sits *inside* race week.
+>
+> **What it costs you:** the race. [...] You'd start the race your whole plan exists for carrying the fatigue of its hardest week.
+>
+> **Your call:** I don't rewrite plans and I won't tell you which session to change — that's yours.
+
+That plan is the repo's planted trap — committed in full (`trap-plan.md`) so anyone can re-spring it themselves: `python3 checker.py trap-plan.ledger`. The editor never produces a corrected plan, never invents a pace or baseline the athlete didn't state, and when it can't evaluate a rule without more information, it holds and asks one question rather than guessing.
+
+**Validation status:** a tested prototype with committed, reproducible receipts — not a clinically or scientifically validated training assessment tool.
+
 ## Why this exists
 
-A taper is one of endurance training’s most basic principles: reduce the load so the athlete reaches race day recovered.
+In July 2025, I asked ChatGPT for a taper plan for a local sprint triathlon. I followed it. I felt fine at the start line — I found out how fried I was in the middle of the race, when there was nothing left to find. I finished in 1:44.
 
-I knew that. But when ChatGPT gave me a heavier race-week plan, I followed it anyway. The plan sounded confident, and I let that confidence override my better judgment.
+The year before, my bike shoe broke at the start of the bike leg. Any cyclist can tell you what that costs: the pull-up half of every pedal stroke, gone for the entire ride. That race — broken equipment, half a pedal stroke — was still four minutes faster than the race where I followed the plan.
 
-I felt fine at the starting line. Midway through the race, I discovered how fatigued I actually was. I finished in 1:44, four minutes slower than the previous year, when my bike shoe broke at the start of the ride and I completed most of the cycling leg without a full pedal stroke.
+The plan had also labeled race day "Fri, July 12." July 12, 2025 was a Saturday. I didn't catch it, and the plan didn't catch itself. That mistake didn't cost me the race — but it told me what I was dealing with: a plan that can't count days shouldn't be trusted to count load unchecked.
 
-The plan had also labeled race day “Fri, July 12.” July 12, 2025 was a Saturday. That mistake did not cost me the race, but it showed that the plan had not checked even its own calendar.
-
-Newer, self-coached athletes may not know what to question. Experienced athletes may see the problem and still defer to a system that sounds more informed or authoritative. Either way, confidence can carry an athlete past the moment they should stop and reconsider.
-
-The Taper Editor exists to create that stopping point.
-
-It does not replace a coach, prescribe training, or declare a plan safe. It checks whether an AI-generated endurance plan follows its own calendar, respects the basic purpose of a taper, and provides enough evidence to justify the workload it assigns.
-
-Every rule in this repository traces back to something a real AI-generated plan actually did wrong. examples.md, Specimen 1, is the report I wish I had read before deciding the AI probably knew better.
+Every rule in this repo traces back to something a real AI-generated plan actually did wrong. Most of them from that same plan. Some from plans that came after it, while this tool was being built. `examples.md`, Specimen 1, is the report I wish I'd had before July 12.
 
 ## Quickstart
 
@@ -28,7 +38,7 @@ Every rule in this repository traces back to something a real AI-generated plan 
 
 **As a deterministic checker**, no model required:
 ```
-python3 checker.py --selftest          # confirms the rule engine itself: 7/7, including one test that must NOT fire
+python3 checker.py --selftest          # confirms the rule engine itself: 8/8, including one test that must NOT fire and one that pins a known limitation
 python3 checker.py trap-plan.ledger    # reproduces any specimen's verdict from its ledger
 ```
 Every ledger in this repo reproduces its **final** verdict exactly, on demand. Where a specimen went through intermediate HOLDs before a declaration landed (Specimens 3 and 4), the intermediate receipts are preserved in `runs/`, but the ledgers were updated in place as athlete declarations were recorded — so the committed ledger reproduces the final state, and the earlier receipts document the path. That scoping is stated here so nobody has to discover it.
@@ -67,16 +77,15 @@ Four of these six specimens are constructed or real-but-private test cases; two 
 
 ## Verification
 
-- `python3 checker.py --selftest` — 7/7, deterministic, including a clean control case that must not fire.
+- `python3 checker.py --selftest` — 8/8, deterministic, including a clean control case that must not fire and a regression test that pins the Specimen 6 mixed-unit false block as documented, known behavior (receipts: `runs/2026-07-19-selftest-run.txt` and `runs/2026-07-20-selftest-run.txt` at 7/7 before the pin was added 2026-07-21, `runs/2026-07-21-selftest-run.txt` at 8/8 after).
 - Every specimen's committed ledger reproduces its receipt in `runs/` exactly, on demand (final-state scoping noted in Quickstart).
+- Specimen 4's plan and report were additionally reviewed blind by an independent professional — a trainer, named with consent, who had not seen `rules.md`. Her feedback independently converged with Finding 1 and Rule 8, and exposed one gap the eight rules don't cover, logged in `LIMITATIONS.md` rather than patched. Her verbatim texts are in `examples.md`, Specimen 4 addendum.
 - Four of six specimens ship their full source plan text (`evidence-adjusted-plan-verbatim.md` for Specimen 1, `trap-plan.md` for Specimen 2, `evidence-detroit-half-verbatim.md` for Specimen 3, `evidence-pam-triathlon-verbatim.md` for Specimen 6 — her own prompt included, committed with consent), so every quote in those reports can be checked by hand against a committed file. Specimens 4 and 5 do **not** ship their source text — Specimen 4 by deliberate decision (the plan belongs to an anonymous witness), Specimen 5 for the same witness-privacy reason. Known gaps, stated up front, not discovered later. Quotes in those two reports are verifiable by the athletes who own the plans, not by a stranger from this repo alone.
 - `evidence-detroit-half-verbatim.md` carries one deliberate redaction: the word "knee" is replaced with the visible marker `[joint]`. Race name and injury history are kept as originally written — a documented choice, not an omission. `evidence-recovered-summaries.md` documents a separate honesty check: an early AI-written summary of the 2025 plan quietly corrected a weekday error the verbatim source actually contained. Caught, logged, kept.
 
 ## Where this tool disagrees with itself, on the record
 
-Specimen 6's plan states most of its training in yards and miles, not minutes. Run as written, the checker returned BLOCK — race week's load looked heavier than the eleven weeks before it, because those eleven weeks are full of real 60-to-90-minute sessions the checker has no pace to convert, so it counted them as zero. Rerun with the athlete's own real paces attached to those same sessions, the block clears. Both runs are committed.
-
-The athlete who owns that plan read the same evidence and disagreed with the framing above. Her full reaction is in Specimen 6; the short version is that she reads the plan's inconsistency between distances and times as a genuine red flag in its own right, not just a limitation in how this tool measures load. That disagreement is written up, unresolved, in `LIMITATIONS.md` — including why it isn't being patched into `checker.py` two days before a deadline. A tool that only shows you its wins isn't more trustworthy than one that shows you where a real user pushed back on it.
+One external test (Specimen 6) exposed a mixed-unit limitation: run as written, the checker returned a BLOCK that was deterministic, reproducible — and arguably wrong. The athlete who owns that plan read the same evidence and disputes even that framing: she reads the plan's unit inconsistency as a genuine red flag in its own right. Both runs are committed, the disagreement is kept unresolved, and the full mechanism — including why it isn't being patched under deadline pressure — is in `LIMITATIONS.md`. The full exchange is Specimen 6 in `examples.md`.
 
 ## File map
 

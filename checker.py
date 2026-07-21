@@ -394,6 +394,25 @@ date | stated_weekday | duration_min | description
 2025-07-12 | Sat | 75 | "[RACE] Sat: RACE DAY"
 """, 3, "cannot pass unverified"),
 
+# Regression pin for the Specimen 6 false-block mechanism (see LIMITATIONS.md):
+# a goal-race plan whose baseline is stated in distance (uncomputable rows count
+# as zero) while race week is stated in minutes will BLOCK, even though the real
+# baseline may be heavier than race week. This test asserts that KNOWN behavior
+# so any future change to it is deliberate, visible, and re-verified — it is a
+# documented limitation, not an endorsement.
+"mixed_unit_baseline_false_block (KNOWN LIMITATION pinned — expect BLOCK)": ("""
+plan_start: 2025-06-29
+race_date: 2025-07-12
+race_priority: goal
+date | stated_weekday | duration_min | description
+2025-06-29 | Sun | - | "Sun: swim 1000 yards"
+2025-07-01 | Tue | - | "Tue: run 4 miles"
+2025-07-03 | Thu | - | "Thu: ride 15 miles"
+2025-07-08 | Tue | 20 | "Tue: easy spin 20"
+2025-07-10 | Thu | 15 | "Thu: openers 15"
+2025-07-12 | Sat | 75 | "[RACE] Sat: RACE DAY"
+""", 2, "[GATE] BLOCK"),
+
 "control_clean_taper (expect CLEAN — this must NOT fire)": ("""
 plan_start: 2025-06-29
 race_date: 2025-07-12
