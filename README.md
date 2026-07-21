@@ -1,6 +1,6 @@
 # The Taper Editor
 
-An editor for AI-generated endurance training plans — running and triathlon — with particular authority over the final phase: whether the calendar, the workload, and the race-week claims support an actual taper. It doesn't rewrite your plan and it doesn't coach your body. It reads what an AI wrote for you, checks it against eight structural rules and one deterministic race-week check, and hands it back with findings: what the plan says, what rule it breaks, what that costs you, and a question for you to answer. You decide what to do with it.
+An editor for AI-generated endurance training plans — running and triathlon — with particular authority over the final phase: whether the calendar, the workload, and the race-week claims support an actual taper. It doesn't rewrite your plan and it doesn't coach your body. It reads what an AI wrote for you, checks it against eight structural rules — with the race-week rule, and all calendar and total arithmetic, enforced by a deterministic checker rather than model judgment, and hands it back with findings: what the plan says, what rule it breaks, what that costs you, and a question for you to answer. You decide what to do with it.
 
 Built for Clief Notes Comp #9. Domain: AI-generated endurance training plans, for the runner or triathlete about to follow one.
 
@@ -30,6 +30,8 @@ The year before, my bike shoe broke at the start of the bike leg. Any cyclist ca
 
 The plan had also labeled race day "Fri, July 12." July 12, 2025 was a Saturday. I didn't catch it, and the plan didn't catch itself. That mistake didn't cost me the race — but it told me what I was dealing with: a plan that can't count days shouldn't be trusted to count load unchecked.
 
+The worst part: I knew better. I've raced enough to know what a taper is supposed to look like, and that final week didn't look like one — but the plan sounded so informed, so sure of itself, that I followed it over my own judgment. That's the failure this editor exists for. A newer athlete doesn't know which claims to question; an experienced one can still be talked out of what she knows. Either way, the plan's confidence goes unchecked — so this tool checks it.
+
 Every rule in this repo traces back to something a real AI-generated plan actually did wrong. Most of them from that same plan. Some from plans that came after it, while this tool was being built. `examples.md`, Specimen 1, is the report I wish I'd had before July 12.
 
 ## Quickstart
@@ -41,7 +43,7 @@ Every rule in this repo traces back to something a real AI-generated plan actual
 python3 checker.py --selftest          # confirms the rule engine itself: 8/8, including one test that must NOT fire and one that pins a known limitation
 python3 checker.py trap-plan.ledger    # reproduces any specimen's verdict from its ledger
 ```
-Every ledger in this repo reproduces its **final** verdict exactly, on demand. Where a specimen went through intermediate HOLDs before a declaration landed (Specimens 3 and 4), the intermediate receipts are preserved in `runs/`, but the ledgers were updated in place as athlete declarations were recorded — so the committed ledger reproduces the final state, and the earlier receipts document the path. That scoping is stated here so nobody has to discover it.
+Every ledger in this repo reproduces its committed **machine receipt** — the checker's deterministic output — exactly, on demand. (The editor's full verdicts in the table below layer model-reviewed editorial flags on top of that machine state; the flags live in the reports, the arithmetic lives in the receipts.) Where a specimen went through intermediate HOLDs before a declaration landed (Specimens 3 and 4), the intermediate receipts are preserved in `runs/`, but the ledgers were updated in place as athlete declarations were recorded — so the committed ledger reproduces the final state, and the earlier receipts document the path. That scoping is stated here so nobody has to discover it.
 
 ## What a report looks like
 
@@ -62,7 +64,7 @@ Before any rule applies, a scope precondition asks two questions: is this AI-gen
 
 ## The five specimens, plus one
 
-`examples.md` holds six real, dated runs — every verdict the checker can return, each backed by a receipt in `runs/`:
+`examples.md` holds six real, dated runs — every verdict the editor can return, each backed by a receipt in `runs/`:
 
 | # | What | Verdict |
 |---|---|---|
@@ -92,7 +94,7 @@ One external test (Specimen 6) exposed a mixed-unit limitation: run as written, 
 ```
 identity.md                          who the editor is, what it reviews
 rules.md                             the 8 rules, severity, what it must never do
-examples.md                          all six specimens, full reports, witness reactions
+examples.md                          all six specimens with their reports and witness reactions (Specimen 1 abridged; its standalone report is canonical)
 reference/
   glossary.md                        every term used but not defined inline
   rules-quick-reference.md           one line per rule
