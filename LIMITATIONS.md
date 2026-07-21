@@ -33,6 +33,12 @@ The athlete's verbatim reaction to both reports is in `examples.md`, Specimen 6.
 
 A proper fix needs athlete-stated pace directives — never an assumed default pace, since inventing one would be exactly the phantom-athlete failure Rule 4 exists to catch in the plans this editor reviews. That's real feature work: new directives, distance parsing, and new selftest coverage proving it changes nothing for every ledger that doesn't use it. Two days before a submission deadline, with five other specimens' credibility riding on `checker.py`'s current, tested behavior, that trade wasn't worth making. Documented and receipted beats quietly patched under deadline pressure — a claim a stranger can rerun is worth more than a fix nobody had time to verify.
 
+## Effort labels the checker cannot see — found by an independent reviewer
+
+On 2026-07-20, an independent professional (Natalie — trainer, named with consent; her review is committed verbatim in `examples.md`, Specimen 4 addendum) reviewed Specimen 4's plan and report without seeing `rules.md` first. Two of her points converged with what the tool already found. One did not: a plan's intensity vocabulary — "easy," "hard," "medium" — can go entirely unanchored to any pace or measurable target, and no rule here evaluates that. Rule 3 catches specific rows whose amounts can't be computed; it cannot catch a plan that computes perfectly and still never defines what "easy" means for the athlete holding it.
+
+This is logged as a limitation rather than patched, for the same reason as the load-proxy case above: a ninth rule the day before submission would be untested against six specimens whose credibility rides on the current, tested eight, and the design gate — eight rules is the ceiling; new edge cases become test artifacts or documented boundaries — exists precisely for this moment.
+
 ## The honest summary
 
 This editor will occasionally block a plan that is actually fine, specifically when that plan states most of its volume in distance rather than time. When that happens, the fix is the same one this editor already asks for in Findings 1 and 2 of Specimen 3, and Findings 1 and 2 of Specimen 6: give it a pace. Until then, a BLOCK from this tool means "the math didn't clear," not "the plan is unsafe" — and the report says so, every time, rather than letting a technical verdict masquerade as a training judgment.

@@ -265,6 +265,26 @@ The race-week check is passed and all three of your declarations are on the reco
 
 Recorded as-is, unedited. This is the repo's honesty tell doing its job: the accuracy claim is externally confirmed, and the voice critique — a real reader flagging the trainer-register phrasing in identity.md as reaching for personality — is kept on the record rather than smoothed over. No change was made to identity.md's voice on the basis of this single reaction; that decision is documented, not avoided.
 
+### Independent professional review (2026-07-20, texted feedback, consent given)
+
+Natalie — a trainer, cross-discipline including runners, and the owner of Specimen 5's strength program — reviewed this specimen's plan and report independently, without seeing `rules.md` first. She is not the Specimen 4 witness; the plan's owner remains anonymous per her recorded terms. Natalie's texted feedback, verbatim:
+
+> Reviewed your plan, it needs metrics to identify what easy, hard, medium look like in terms of pace per mile / speed /
+> - Set metric targets
+> - Ask for outside training schedule
+> - yours attacked the right targets
+> - too subjective and generic when written as easy/hard
+>
+> are you willing to scale your volume swim, running to accommodate your goal
+>
+> Your prompt is the right direction, addresses intensity / volume, and addresses outside of training/running program
+
+What this converges with, independently: "Ask for outside training schedule" and "addresses outside of training/running program" arrive, blind, at Rule 8 (the solo plan); "needs metrics to identify what easy, hard, medium look like in terms of pace" is Finding 1's computability problem in a coach's words.
+
+What it exposes: "too subjective and generic when written as easy/hard" is broader than anything the checker catches. Rule 3 flags specific rows whose amounts can't be computed — but a plan can state every session in clean, computable minutes and still describe intensity only as "easy" or "hard," anchored to no pace at all, and pass every row check. That gap is logged in `LIMITATIONS.md` as a known limitation, not rushed into a same-day ninth rule — the design gate holds (eight rules is the ceiling; new edge cases become test artifacts or documented boundaries).
+
+Provenance note, kept in the open: this addendum was first recorded 2026-07-20 and was dropped from the repo in that night's rebuild. Restored 2026-07-21, from the reviewer's original texts.
+
 ---
 
 ## Specimen 5 — Out of scope: DECLINE
