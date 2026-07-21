@@ -6,11 +6,21 @@ Built for Clief Notes Comp #9. Domain: AI-generated endurance training plans, fo
 
 ## Why this exists
 
-In July 2025, I asked ChatGPT for a taper plan for a local sprint triathlon. It labeled race day "Fri, July 12." July 12, 2025 was a Saturday. I didn't catch it. The plan didn't catch itself either.
+A taper is one of endurance training’s most basic principles: reduce the load so the athlete reaches race day recovered.
 
-The final week was the real problem. I followed what it told me to do and showed up to the start line completely fried, burned out before the gun even went off. I finished in 1:44. The year before, my bike shoe broke mid-race and I pedaled the whole ride on one leg. That race was still four minutes faster than the one where I actually had a "real" plan.
+I knew that. But when ChatGPT gave me a heavier race-week plan, I followed it anyway. The plan sounded confident, and I let that confidence override my better judgment.
 
-Every rule in this repo traces back to something a real AI-generated plan actually did wrong. Most of them from that same plan. Some from plans that came after it, while this tool was being built. `examples.md`, Specimen 1, is the report I wish I'd had before July 12.
+I felt fine at the starting line. Midway through the race, I discovered how fatigued I actually was. I finished in 1:44—four minutes slower than the previous year, when my bike shoe broke at the start of the ride and I completed most of the cycling leg without a full pedal stroke.
+
+The plan had also labeled race day “Fri, July 12.” July 12, 2025 was a Saturday. That mistake did not cost me the race, but it showed that the plan had not checked even its own calendar.
+
+Newer, self-coached athletes may not know what to question. Experienced athletes may see the problem and still defer to a system that sounds more informed or authoritative. Either way, confidence can carry an athlete past the moment they should stop and reconsider.
+
+The Taper Editor exists to create that stopping point.
+
+It does not replace a coach, prescribe training, or declare a plan safe. It checks whether an AI-generated endurance plan follows its own calendar, respects the basic purpose of a taper, and provides enough evidence to justify the workload it assigns.
+
+Every rule in this repository traces back to something a real AI-generated plan actually did wrong. examples.md, Specimen 1, is the report I wish I had read before deciding the AI probably knew better.
 
 ## Quickstart
 
