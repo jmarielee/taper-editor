@@ -1,0 +1,52 @@
+# detroit-half.ledger — extracted from the plan's own 13-week progression
+# table (the only quantified sessions the plan states). Tuesday pickleball,
+# Wednesday strength (35–45 min range), and Friday optional sessions recur
+# weekly with NO computable duration — excluded here, reported in the editor's
+# findings as unquantified load. Sunday long runs are stated in MILES with no
+# pace, so their minutes are uncomputable ("-"): converting them would mean
+# inventing a pace the athlete never stated.
+# Race declared GOAL by the athlete 2026-07-19 in session; recorded per Rule 1.
+plan_start: 2026-07-20
+race_date: 2026-10-18
+race_priority: goal
+
+date | stated_weekday | duration_min | description
+2026-07-20 | Mon | 25 | "Week 1 (Jul 20–26): Monday 25 min"
+2026-07-23 | Thu | 30 | "Week 1 (Jul 20–26): Thursday 30 min"
+2026-07-26 | Sun | - | "Week 1 (Jul 20–26): Sunday long run/walk 3 miles"
+2026-07-27 | Mon | 30 | "Week 2 (Jul 27–Aug 2): Monday 30 min"
+2026-07-30 | Thu | 35 | "Week 2 (Jul 27–Aug 2): Thursday 35 min"
+2026-08-02 | Sun | - | "Week 2 (Jul 27–Aug 2): Sunday long run/walk 4 miles"
+2026-08-03 | Mon | 30 | "Week 3 (Aug 3–9): Monday 30 min"
+2026-08-06 | Thu | 35 | "Week 3 (Aug 3–9): Thursday 35 min"
+2026-08-09 | Sun | - | "Week 3 (Aug 3–9): Sunday long run/walk 5 miles"
+2026-08-10 | Mon | 30 | "Week 4 (Aug 10–16): Monday 30 min"
+2026-08-13 | Thu | 30 | "Week 4 (Aug 10–16): Thursday 30 min"
+2026-08-16 | Sun | - | "Week 4 (Aug 10–16): Sunday long run/walk 4 miles — recovery"
+2026-08-17 | Mon | 35 | "Week 5 (Aug 17–23): Monday 35 min"
+2026-08-20 | Thu | 40 | "Week 5 (Aug 17–23): Thursday 40 min"
+2026-08-23 | Sun | - | "Week 5 (Aug 17–23): Sunday long run/walk 6 miles"
+2026-08-24 | Mon | 35 | "Week 6 (Aug 24–30): Monday 35 min"
+2026-08-27 | Thu | 40 | "Week 6 (Aug 24–30): Thursday 40 min"
+2026-08-30 | Sun | - | "Week 6 (Aug 24–30): Sunday long run/walk 7 miles"
+2026-08-31 | Mon | 35 | "Week 7 (Aug 31–Sep 6): Monday 35 min"
+2026-09-03 | Thu | 35 | "Week 7 (Aug 31–Sep 6): Thursday 35 min"
+2026-09-06 | Sun | - | "Week 7 (Aug 31–Sep 6): Sunday long run/walk 5 miles — recovery"
+2026-09-07 | Mon | 40 | "Week 8 (Sep 7–13): Monday 40 min"
+2026-09-10 | Thu | 45 | "Week 8 (Sep 7–13): Thursday 45 min"
+2026-09-13 | Sun | - | "Week 8 (Sep 7–13): Sunday long run/walk 8 miles"
+2026-09-14 | Mon | 40 | "Week 9 (Sep 14–20): Monday 40 min"
+2026-09-17 | Thu | 45 | "Week 9 (Sep 14–20): Thursday 45 min"
+2026-09-20 | Sun | - | "Week 9 (Sep 14–20): Sunday long run/walk 9 miles"
+2026-09-21 | Mon | 40 | "Week 10 (Sep 21–27): Monday 40 min"
+2026-09-24 | Thu | 40 | "Week 10 (Sep 21–27): Thursday 40 min"
+2026-09-27 | Sun | - | "Week 10 (Sep 21–27): Sunday long run/walk 7 miles — recovery"
+2026-09-28 | Mon | 35 | "Week 11 (Sep 28–Oct 4): Monday 35 min"
+2026-10-01 | Thu | 45 | "Week 11 (Sep 28–Oct 4): Thursday 45 min"
+2026-10-04 | Sun | - | "Week 11 (Sep 28–Oct 4): Sunday long run/walk 10 miles"
+2026-10-05 | Mon | 30 | "Week 12 (Oct 5–11): Monday 30 min"
+2026-10-08 | Thu | 30 | "Week 12 (Oct 5–11): Thursday 30 min"
+2026-10-11 | Sun | - | "Week 12 (Oct 5–11): Sunday long run/walk 6 miles — taper"
+2026-10-12 | Mon | 25 | "Week 13 (Oct 12–18): Monday 25 min"
+2026-10-15 | Thu | 20 | "Week 13 (Oct 12–18): Thursday 20 min"
+2026-10-18 | Sun | - | "[RACE] Week 13: Race: 13.1 miles — Sunday, October 18, 2026"

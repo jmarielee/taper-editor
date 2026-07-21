@@ -1,0 +1,84 @@
+# nyc-marathon.ledger — extracted from a ChatGPT-generated NYC Marathon plan
+# (July 20 – Nov 1, 2026) provided by the athlete's sister on 2026-07-19.
+# Consent recorded: use in repo approved, anonymous ("my sister"), no name.
+# race_priority: goal — declared by the plan itself ("Goal: Approximately
+# 5:00 marathon"; the entire plan builds to Nov 1) and confirmed by the athlete.
+# All run sessions are stated in MILES with pace RANGES (e.g. "12:30–13:30+
+# per mile"), so no single duration is computable without the athlete stating
+# times — durations are "-" per ledger rules; stated rest days are 0.
+# Excluded as unquantifiable/undatable (reported in editor findings, not rows):
+#  - Weeks 4–5 (Aug 10–23, travel): runs listed without weekdays or dates
+#  - Week 6 "Tue/Wed 3–4 easy" (ambiguous day) — Thu/Sat/Sun of week 6 kept
+#  - Recurring bike (45–75 min ranges), swim, strength (20–30 min ranges)
+# ATHLETE STATEMENT recorded 2026-07-19 (from the plan's runner, the
+# athlete's sister): "easy pace is about a 12 minute mile." Run durations
+# below are miles x 12 min/mile per that statement. Conversion rules, noted
+# for direction-safety:
+#  - preceding-period ranges use the LOWER mile count (understates preceding
+#    load; can only make the gate HARDER to pass — safe)
+#  - race-week ranges use the UPPER mile count (overstates race week — safe)
+#  - her stated 12:00/mi is faster than the plan's prescribed easy range
+#    (12:30-13:30/mi), so all run durations may be slight understatements;
+#    for race week this is noted and immaterial: the margin below is ~6x
+#  - Wed race-week "optional easy swim/rest": SECOND ATHLETE STATEMENT
+#    recorded 2026-07-19 — "she'd take the rest." Recorded as 0 min per her
+#    declaration; the rest option is the plan's own, chosen by the athlete.
+plan_start: 2026-07-20
+race_date: 2026-11-01
+race_priority: goal
+
+date | stated_weekday | duration_min | description
+2026-07-21 | Tue | 36 | "Week 1: July 20–26 — Tue 3 easy"
+2026-07-23 | Thu | 36 | "Week 1: July 20–26 — Thu 3 easy"
+2026-07-25 | Sat | 24 | "Week 1: July 20–26 — Sat 2 very easy"
+2026-07-26 | Sun | 120 | "Week 1: July 20–26 — Sun 10 long"
+2026-07-28 | Tue | 36 | "Week 2: July 27–Aug 2 — Tue 3 easy"
+2026-07-30 | Thu | 48 | "Week 2: July 27–Aug 2 — Thu 4 easy"
+2026-08-01 | Sat | 24 | "Week 2: July 27–Aug 2 — Sat 2 very easy"
+2026-08-02 | Sun | 132 | "Week 2: July 27–Aug 2 — Sun 11 long"
+2026-08-04 | Tue | 48 | "Week 3: Aug 3–9 — Tue 4 easy"
+2026-08-06 | Thu | 48 | "Week 3: Aug 3–9 — Thu 4 easy"
+2026-08-08 | Sat | 24 | "Week 3: Aug 3–9 — Sat 2 very easy"
+2026-08-09 | Sun | 144 | "Week 3: Aug 3–9 — Sun 12 long"
+2026-08-27 | Thu | 48 | "Week 6: Aug 24–30 — Thu 4 easy"
+2026-08-29 | Sat | 24 | "Week 6: Aug 24–30 — Sat 2–3 easy"
+2026-08-30 | Sun | 120 | "Week 6: Aug 24–30 — Sun 10 long"
+2026-09-01 | Tue | 48 | "Week 7: Aug 31–Sep 6 — Tue 4 easy"
+2026-09-03 | Thu | 60 | "Week 7: Aug 31–Sep 6 — Thu 5"
+2026-09-05 | Sat | 24 | "Week 7: Aug 31–Sep 6 — Sat 2 easy"
+2026-09-06 | Sun | 144 | "Week 7: Aug 31–Sep 6 — Sun 12 long"
+2026-09-08 | Tue | 48 | "Week 8: Sep 7–13 — Tue 4 easy"
+2026-09-10 | Thu | 60 | "Week 8: Sep 7–13 — Thu 5"
+2026-09-12 | Sat | 36 | "Week 8: Sep 7–13 — Sat 3 easy"
+2026-09-13 | Sun | 168 | "Week 8: Sep 7–13 — Sun 14 long"
+2026-09-15 | Tue | 48 | "Week 9: Sep 14–20 — Tue 4 easy"
+2026-09-17 | Thu | 60 | "Week 9: Sep 14–20 — Thu 5"
+2026-09-19 | Sat | 36 | "Week 9: Sep 14–20 — Sat 3 easy"
+2026-09-20 | Sun | 120 | "Week 9: Sep 14–20 — Sun 10 long"
+2026-09-22 | Tue | 60 | "Week 10: Sep 21–27 — Tue 5 easy"
+2026-09-24 | Thu | 60 | "Week 10: Sep 21–27 — Thu 5"
+2026-09-26 | Sat | 36 | "Week 10: Sep 21–27 — Sat 3 easy"
+2026-09-27 | Sun | 192 | "Week 10: Sep 21–27 — Sun 16 long"
+2026-09-29 | Tue | 60 | "Week 11: Sep 28–Oct 4 — Tue 5 easy"
+2026-10-01 | Thu | 60 | "Week 11: Sep 28–Oct 4 — Thu 5"
+2026-10-03 | Sat | 36 | "Week 11: Sep 28–Oct 4 — Sat 3 easy"
+2026-10-04 | Sun | 216 | "Week 11: Sep 28–Oct 4 — Sun 18 long"
+2026-10-06 | Tue | 60 | "Week 12: Oct 5–11 — Tue 5 easy"
+2026-10-08 | Thu | 60 | "Week 12: Oct 5–11 — Thu 5"
+2026-10-10 | Sat | 24 | "Week 12: Oct 5–11 — Sat 2 easy"
+2026-10-11 | Sun | 240 | "Week 12: Oct 5–11 — Sun 20 long (peak; cap at 20)"
+2026-10-13 | Tue | 48 | "Week 13: Oct 12–18 — Tue 4 easy"
+2026-10-15 | Thu | 60 | "Week 13: Oct 12–18 — Thu 5"
+2026-10-17 | Sat | 24 | "Week 13: Oct 12–18 — Sat 2 easy"
+2026-10-18 | Sun | 168 | "Week 13: Oct 12–18 — Sun 14 long"
+2026-10-20 | Tue | 48 | "Week 14: Oct 19–25 — Tue 4 easy"
+2026-10-22 | Thu | 48 | "Week 14: Oct 19–25 — Thu 4 with 2 at marathon effort"
+2026-10-24 | Sat | 24 | "Week 14: Oct 19–25 — Sat 2 easy"
+2026-10-25 | Sun | 96 | "Week 14: Oct 19–25 — Sun 8–10 easy"
+2026-10-26 | Mon | 0 | "Race Week: Oct 26–Nov 1 — Mon rest"
+2026-10-27 | Tue | 36 | "Race Week: Oct 26–Nov 1 — Tue 3 easy"
+2026-10-28 | Wed | 0 | "Race Week: Oct 26–Nov 1 — Wed optional easy swim/rest" 
+2026-10-29 | Thu | 36 | "Race Week: Oct 26–Nov 1 — Thu 3 easy"
+2026-10-30 | Fri | 0 | "Race Week: Oct 26–Nov 1 — Fri rest"
+2026-10-31 | Sat | 24 | "Race Week: Oct 26–Nov 1 — Sat 1–2 shakeout or rest"
+2026-11-01 | Sun | - | "[RACE] Race Week — Sun 26.2 race"

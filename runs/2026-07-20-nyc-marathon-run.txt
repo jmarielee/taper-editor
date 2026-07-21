@@ -1,0 +1,167 @@
+checker.py report — nyc-marathon.ledger
+run at 2026-07-20 02:08 UTC
+plan_start=2026-07-20  race_date=2026-11-01  race_priority=goal
+------------------------------------------------------------------------
+[RAMP] race-week row 2026-10-27 has no computable duration: ""Race Week: Oct 26–Nov 1 — Tue 3 easy""
+[RAMP] race-week row 2026-10-28 has no computable duration: ""Race Week: Oct 26–Nov 1 — Wed optional easy swim/rest""
+[RAMP] race-week row 2026-10-29 has no computable duration: ""Race Week: Oct 26–Nov 1 — Thu 3 easy""
+[RAMP] race-week row 2026-10-31 has no computable duration: ""Race Week: Oct 26–Nov 1 — Sat 1–2 shakeout or rest""
+[RAMP] pre-race-week row 2026-07-21 has no computable duration: ""Week 1: July 20–26 — Tue 3 easy""
+[RAMP] pre-race-week row 2026-07-23 has no computable duration: ""Week 1: July 20–26 — Thu 3 easy""
+[RAMP] pre-race-week row 2026-07-25 has no computable duration: ""Week 1: July 20–26 — Sat 2 very easy""
+[RAMP] pre-race-week row 2026-07-26 has no computable duration: ""Week 1: July 20–26 — Sun 10 long""
+[RAMP] pre-race-week row 2026-07-28 has no computable duration: ""Week 2: July 27–Aug 2 — Tue 3 easy""
+[RAMP] pre-race-week row 2026-07-30 has no computable duration: ""Week 2: July 27–Aug 2 — Thu 4 easy""
+[RAMP] pre-race-week row 2026-08-01 has no computable duration: ""Week 2: July 27–Aug 2 — Sat 2 very easy""
+[RAMP] pre-race-week row 2026-08-02 has no computable duration: ""Week 2: July 27–Aug 2 — Sun 11 long""
+[RAMP] pre-race-week row 2026-08-04 has no computable duration: ""Week 3: Aug 3–9 — Tue 4 easy""
+[RAMP] pre-race-week row 2026-08-06 has no computable duration: ""Week 3: Aug 3–9 — Thu 4 easy""
+[RAMP] pre-race-week row 2026-08-08 has no computable duration: ""Week 3: Aug 3–9 — Sat 2 very easy""
+[RAMP] pre-race-week row 2026-08-09 has no computable duration: ""Week 3: Aug 3–9 — Sun 12 long""
+[RAMP] pre-race-week row 2026-08-27 has no computable duration: ""Week 6: Aug 24–30 — Thu 4 easy""
+[RAMP] pre-race-week row 2026-08-29 has no computable duration: ""Week 6: Aug 24–30 — Sat 2–3 easy""
+[RAMP] pre-race-week row 2026-08-30 has no computable duration: ""Week 6: Aug 24–30 — Sun 10 long""
+[RAMP] pre-race-week row 2026-09-01 has no computable duration: ""Week 7: Aug 31–Sep 6 — Tue 4 easy""
+[RAMP] pre-race-week row 2026-09-03 has no computable duration: ""Week 7: Aug 31–Sep 6 — Thu 5""
+[RAMP] pre-race-week row 2026-09-05 has no computable duration: ""Week 7: Aug 31–Sep 6 — Sat 2 easy""
+[RAMP] pre-race-week row 2026-09-06 has no computable duration: ""Week 7: Aug 31–Sep 6 — Sun 12 long""
+[RAMP] pre-race-week row 2026-09-08 has no computable duration: ""Week 8: Sep 7–13 — Tue 4 easy""
+[RAMP] pre-race-week row 2026-09-10 has no computable duration: ""Week 8: Sep 7–13 — Thu 5""
+[RAMP] pre-race-week row 2026-09-12 has no computable duration: ""Week 8: Sep 7–13 — Sat 3 easy""
+[RAMP] pre-race-week row 2026-09-13 has no computable duration: ""Week 8: Sep 7–13 — Sun 14 long""
+[RAMP] pre-race-week row 2026-09-15 has no computable duration: ""Week 9: Sep 14–20 — Tue 4 easy""
+[RAMP] pre-race-week row 2026-09-17 has no computable duration: ""Week 9: Sep 14–20 — Thu 5""
+[RAMP] pre-race-week row 2026-09-19 has no computable duration: ""Week 9: Sep 14–20 — Sat 3 easy""
+[RAMP] pre-race-week row 2026-09-20 has no computable duration: ""Week 9: Sep 14–20 — Sun 10 long""
+[RAMP] pre-race-week row 2026-09-22 has no computable duration: ""Week 10: Sep 21–27 — Tue 5 easy""
+[RAMP] pre-race-week row 2026-09-24 has no computable duration: ""Week 10: Sep 21–27 — Thu 5""
+[RAMP] pre-race-week row 2026-09-26 has no computable duration: ""Week 10: Sep 21–27 — Sat 3 easy""
+[RAMP] pre-race-week row 2026-09-27 has no computable duration: ""Week 10: Sep 21–27 — Sun 16 long""
+[RAMP] pre-race-week row 2026-09-29 has no computable duration: ""Week 11: Sep 28–Oct 4 — Tue 5 easy""
+[RAMP] pre-race-week row 2026-10-01 has no computable duration: ""Week 11: Sep 28–Oct 4 — Thu 5""
+[RAMP] pre-race-week row 2026-10-03 has no computable duration: ""Week 11: Sep 28–Oct 4 — Sat 3 easy""
+[RAMP] pre-race-week row 2026-10-04 has no computable duration: ""Week 11: Sep 28–Oct 4 — Sun 18 long""
+[RAMP] pre-race-week row 2026-10-06 has no computable duration: ""Week 12: Oct 5–11 — Tue 5 easy""
+[RAMP] pre-race-week row 2026-10-08 has no computable duration: ""Week 12: Oct 5–11 — Thu 5""
+[RAMP] pre-race-week row 2026-10-10 has no computable duration: ""Week 12: Oct 5–11 — Sat 2 easy""
+[RAMP] pre-race-week row 2026-10-11 has no computable duration: ""Week 12: Oct 5–11 — Sun 20 long (peak; cap at 20)""
+[RAMP] pre-race-week row 2026-10-13 has no computable duration: ""Week 13: Oct 12–18 — Tue 4 easy""
+[RAMP] pre-race-week row 2026-10-15 has no computable duration: ""Week 13: Oct 12–18 — Thu 5""
+[RAMP] pre-race-week row 2026-10-17 has no computable duration: ""Week 13: Oct 12–18 — Sat 2 easy""
+[RAMP] pre-race-week row 2026-10-18 has no computable duration: ""Week 13: Oct 12–18 — Sun 14 long""
+[RAMP] pre-race-week row 2026-10-20 has no computable duration: ""Week 14: Oct 19–25 — Tue 4 easy""
+[RAMP] pre-race-week row 2026-10-22 has no computable duration: ""Week 14: Oct 19–25 — Thu 4 with 2 at marathon effort""
+[RAMP] pre-race-week row 2026-10-24 has no computable duration: ""Week 14: Oct 19–25 — Sat 2 easy""
+[RAMP] pre-race-week row 2026-10-25 has no computable duration: ""Week 14: Oct 19–25 — Sun 8–10 easy""
+[RAMP] load table (training minutes/day; race excluded):
+[RAMP]   2026-07-20 Mon     0   (preceding)
+[RAMP]   2026-07-21 Tue     0   (preceding)
+[RAMP]   2026-07-22 Wed     0   (preceding)
+[RAMP]   2026-07-23 Thu     0   (preceding)
+[RAMP]   2026-07-24 Fri     0   (preceding)
+[RAMP]   2026-07-25 Sat     0   (preceding)
+[RAMP]   2026-07-26 Sun     0   (preceding)
+[RAMP]   2026-07-27 Mon     0   (preceding)
+[RAMP]   2026-07-28 Tue     0   (preceding)
+[RAMP]   2026-07-29 Wed     0   (preceding)
+[RAMP]   2026-07-30 Thu     0   (preceding)
+[RAMP]   2026-07-31 Fri     0   (preceding)
+[RAMP]   2026-08-01 Sat     0   (preceding)
+[RAMP]   2026-08-02 Sun     0   (preceding)
+[RAMP]   2026-08-03 Mon     0   (preceding)
+[RAMP]   2026-08-04 Tue     0   (preceding)
+[RAMP]   2026-08-05 Wed     0   (preceding)
+[RAMP]   2026-08-06 Thu     0   (preceding)
+[RAMP]   2026-08-07 Fri     0   (preceding)
+[RAMP]   2026-08-08 Sat     0   (preceding)
+[RAMP]   2026-08-09 Sun     0   (preceding)
+[RAMP]   2026-08-10 Mon     0   (preceding)
+[RAMP]   2026-08-11 Tue     0   (preceding)
+[RAMP]   2026-08-12 Wed     0   (preceding)
+[RAMP]   2026-08-13 Thu     0   (preceding)
+[RAMP]   2026-08-14 Fri     0   (preceding)
+[RAMP]   2026-08-15 Sat     0   (preceding)
+[RAMP]   2026-08-16 Sun     0   (preceding)
+[RAMP]   2026-08-17 Mon     0   (preceding)
+[RAMP]   2026-08-18 Tue     0   (preceding)
+[RAMP]   2026-08-19 Wed     0   (preceding)
+[RAMP]   2026-08-20 Thu     0   (preceding)
+[RAMP]   2026-08-21 Fri     0   (preceding)
+[RAMP]   2026-08-22 Sat     0   (preceding)
+[RAMP]   2026-08-23 Sun     0   (preceding)
+[RAMP]   2026-08-24 Mon     0   (preceding)
+[RAMP]   2026-08-25 Tue     0   (preceding)
+[RAMP]   2026-08-26 Wed     0   (preceding)
+[RAMP]   2026-08-27 Thu     0   (preceding)
+[RAMP]   2026-08-28 Fri     0   (preceding)
+[RAMP]   2026-08-29 Sat     0   (preceding)
+[RAMP]   2026-08-30 Sun     0   (preceding)
+[RAMP]   2026-08-31 Mon     0   (preceding)
+[RAMP]   2026-09-01 Tue     0   (preceding)
+[RAMP]   2026-09-02 Wed     0   (preceding)
+[RAMP]   2026-09-03 Thu     0   (preceding)
+[RAMP]   2026-09-04 Fri     0   (preceding)
+[RAMP]   2026-09-05 Sat     0   (preceding)
+[RAMP]   2026-09-06 Sun     0   (preceding)
+[RAMP]   2026-09-07 Mon     0   (preceding)
+[RAMP]   2026-09-08 Tue     0   (preceding)
+[RAMP]   2026-09-09 Wed     0   (preceding)
+[RAMP]   2026-09-10 Thu     0   (preceding)
+[RAMP]   2026-09-11 Fri     0   (preceding)
+[RAMP]   2026-09-12 Sat     0   (preceding)
+[RAMP]   2026-09-13 Sun     0   (preceding)
+[RAMP]   2026-09-14 Mon     0   (preceding)
+[RAMP]   2026-09-15 Tue     0   (preceding)
+[RAMP]   2026-09-16 Wed     0   (preceding)
+[RAMP]   2026-09-17 Thu     0   (preceding)
+[RAMP]   2026-09-18 Fri     0   (preceding)
+[RAMP]   2026-09-19 Sat     0   (preceding)
+[RAMP]   2026-09-20 Sun     0   (preceding)
+[RAMP]   2026-09-21 Mon     0   (preceding)
+[RAMP]   2026-09-22 Tue     0   (preceding)
+[RAMP]   2026-09-23 Wed     0   (preceding)
+[RAMP]   2026-09-24 Thu     0   (preceding)
+[RAMP]   2026-09-25 Fri     0   (preceding)
+[RAMP]   2026-09-26 Sat     0   (preceding)
+[RAMP]   2026-09-27 Sun     0   (preceding)
+[RAMP]   2026-09-28 Mon     0   (preceding)
+[RAMP]   2026-09-29 Tue     0   (preceding)
+[RAMP]   2026-09-30 Wed     0   (preceding)
+[RAMP]   2026-10-01 Thu     0   (preceding)
+[RAMP]   2026-10-02 Fri     0   (preceding)
+[RAMP]   2026-10-03 Sat     0   (preceding)
+[RAMP]   2026-10-04 Sun     0   (preceding)
+[RAMP]   2026-10-05 Mon     0   (preceding)
+[RAMP]   2026-10-06 Tue     0   (preceding)
+[RAMP]   2026-10-07 Wed     0   (preceding)
+[RAMP]   2026-10-08 Thu     0   (preceding)
+[RAMP]   2026-10-09 Fri     0   (preceding)
+[RAMP]   2026-10-10 Sat     0   (preceding)
+[RAMP]   2026-10-11 Sun     0   (preceding)
+[RAMP]   2026-10-12 Mon     0   (preceding)
+[RAMP]   2026-10-13 Tue     0   (preceding)
+[RAMP]   2026-10-14 Wed     0   (preceding)
+[RAMP]   2026-10-15 Thu     0   (preceding)
+[RAMP]   2026-10-16 Fri     0   (preceding)
+[RAMP]   2026-10-17 Sat     0   (preceding)
+[RAMP]   2026-10-18 Sun     0   (preceding)
+[RAMP]   2026-10-19 Mon     0   (preceding)
+[RAMP]   2026-10-20 Tue     0   (preceding)
+[RAMP]   2026-10-21 Wed     0   (preceding)
+[RAMP]   2026-10-22 Thu     0   (preceding)
+[RAMP]   2026-10-23 Fri     0   (preceding)
+[RAMP]   2026-10-24 Sat     0   (preceding)
+[RAMP]   2026-10-25 Sun     0   (preceding)
+[RAMP]   2026-10-26 Mon     0   (race week)
+[RAMP]   2026-10-27 Tue     0   (race week)
+[RAMP]   2026-10-28 Wed     0   (race week)
+[RAMP]   2026-10-29 Thu     0   (race week)
+[RAMP]   2026-10-30 Fri     0   (race week)
+[RAMP]   2026-10-31 Sat     0   (race week)
+[RAMP]   2026-11-01 Sun     0   (race week)
+[RAMP] preceding daily avg = 0.0 min over 98 days; race-week daily avg = 0.0 min
+[RAMP] preceding max day = 0 min; race-week max training day = 0 min
+[GATE] HOLD — race-week load cannot be verified: 4 race-week row(s) state a distance or activity but no computable time. Distance-based sessions are normal coaching; they are unverifiable without a pace or time the athlete states. A goal-race gate cannot pass unverified. One question: "About how many minutes does each of these race-week sessions usually take you?"
+------------------------------------------------------------------------
+VERDICT: HOLD
+exit code: 3

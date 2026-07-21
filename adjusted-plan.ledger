@@ -1,0 +1,27 @@
+# adjusted-plan.ledger — extracted verbatim from evidence-adjusted-plan-verbatim.md
+# (the July 2025 ChatGPT adjusted plan — the repo's source artifact).
+# stated_weekday is AS PRINTED in the plan. Durations: the plan states
+# distances and effort levels but almost no session durations in minutes,
+# so most rows are "-" (uncomputable) — the checker reports that honestly.
+# "Full Rest" is 0 minutes (rest is computable; unstated duration is not).
+# The plan never declares the race's priority: race_priority is undeclared.
+# (The plan's preamble says "Sprint triathlon on Saturday, July 12" while
+# its table labels July 12 "Fri" — the model layer quotes that; this
+# ledger records only the table rows.)
+plan_start: 2025-07-01
+race_date: 2025-07-12
+race_priority: undeclared
+
+date | stated_weekday | duration_min | description
+2025-07-01 | Mon | - | "✅ Mon, July 1 — Weights + Swim — Done! Great start — full-body lift + 1050m swim"
+2025-07-02 | Tues | - | "✅ Tues, July 2 — Bike + Run Brick + Pickleball — Done! High-output day"
+2025-07-03 | Wed | - | "Wed, July 3 — Recovery + Core — Light walk or yoga + 15–20 min core"
+2025-07-04 | Thurs | - | "Thurs, July 4 — Run + Strength — Run 2 miles steady + light full-body strength (50–60% effort)"
+2025-07-05 | Fri | - | "Fri, July 5 — Pickleball + Swim — AM pickleball, then easy 800m swim or technique drills in PM"
+2025-07-06 | Sat | - | "Sat, July 6 — Long Brick Day — 11–12 mile bike → 2–3 mile run. Mimic race setup if possible."
+2025-07-07 | Sun | 0 | "Sun, July 7 — Full Rest — Walk, foam roll, hydrate. You earned this."
+2025-07-08 | Mon | - | "Mon, July 8 — Weights (light) + Short Run — Full-body strength (1 set per move), Run 2 miles easy"
+2025-07-09 | Tues | - | "Tues, July 9 — Pickleball — Just pickleball today — keep pace moderate"
+2025-07-10 | Wed | - | "Wed, July 10 — Swim + Stretch — Swim: 800m easy + long stretching after"
+2025-07-11 | Thurs | - | "Thurs, July 11 — Mobility + Gear Prep — Gentle yoga or foam roll + prep gear and nutrition"
+2025-07-12 | Fri | - | "[RACE] Fri, July 12 — TRIATHLON DAY! — Race strong and enjoy what you've trained for"

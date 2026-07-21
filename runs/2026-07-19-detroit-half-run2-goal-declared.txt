@@ -1,0 +1,114 @@
+checker.py report — detroit-half.ledger
+run at 2026-07-19 15:21 UTC
+plan_start=2026-07-20  race_date=2026-10-18  race_priority=goal
+------------------------------------------------------------------------
+[RAMP] pre-race-week row 2026-07-26 has no computable duration: ""Week 1 (Jul 20–26): Sunday long run/walk 3 miles""
+[RAMP] pre-race-week row 2026-08-02 has no computable duration: ""Week 2 (Jul 27–Aug 2): Sunday long run/walk 4 miles""
+[RAMP] pre-race-week row 2026-08-09 has no computable duration: ""Week 3 (Aug 3–9): Sunday long run/walk 5 miles""
+[RAMP] pre-race-week row 2026-08-16 has no computable duration: ""Week 4 (Aug 10–16): Sunday long run/walk 4 miles — recovery""
+[RAMP] pre-race-week row 2026-08-23 has no computable duration: ""Week 5 (Aug 17–23): Sunday long run/walk 6 miles""
+[RAMP] pre-race-week row 2026-08-30 has no computable duration: ""Week 6 (Aug 24–30): Sunday long run/walk 7 miles""
+[RAMP] pre-race-week row 2026-09-06 has no computable duration: ""Week 7 (Aug 31–Sep 6): Sunday long run/walk 5 miles — recovery""
+[RAMP] pre-race-week row 2026-09-13 has no computable duration: ""Week 8 (Sep 7–13): Sunday long run/walk 8 miles""
+[RAMP] pre-race-week row 2026-09-20 has no computable duration: ""Week 9 (Sep 14–20): Sunday long run/walk 9 miles""
+[RAMP] pre-race-week row 2026-09-27 has no computable duration: ""Week 10 (Sep 21–27): Sunday long run/walk 7 miles — recovery""
+[RAMP] pre-race-week row 2026-10-04 has no computable duration: ""Week 11 (Sep 28–Oct 4): Sunday long run/walk 10 miles""
+[RAMP] pre-race-week row 2026-10-11 has no computable duration: ""Week 12 (Oct 5–11): Sunday long run/walk 6 miles — taper""
+[RAMP] load table (training minutes/day; race excluded):
+[RAMP]   2026-07-20 Mon    25   (preceding)
+[RAMP]   2026-07-21 Tue     0   (preceding)
+[RAMP]   2026-07-22 Wed     0   (preceding)
+[RAMP]   2026-07-23 Thu    30   (preceding)
+[RAMP]   2026-07-24 Fri     0   (preceding)
+[RAMP]   2026-07-25 Sat     0   (preceding)
+[RAMP]   2026-07-26 Sun     0   (preceding)
+[RAMP]   2026-07-27 Mon    30   (preceding)
+[RAMP]   2026-07-28 Tue     0   (preceding)
+[RAMP]   2026-07-29 Wed     0   (preceding)
+[RAMP]   2026-07-30 Thu    35   (preceding)
+[RAMP]   2026-07-31 Fri     0   (preceding)
+[RAMP]   2026-08-01 Sat     0   (preceding)
+[RAMP]   2026-08-02 Sun     0   (preceding)
+[RAMP]   2026-08-03 Mon    30   (preceding)
+[RAMP]   2026-08-04 Tue     0   (preceding)
+[RAMP]   2026-08-05 Wed     0   (preceding)
+[RAMP]   2026-08-06 Thu    35   (preceding)
+[RAMP]   2026-08-07 Fri     0   (preceding)
+[RAMP]   2026-08-08 Sat     0   (preceding)
+[RAMP]   2026-08-09 Sun     0   (preceding)
+[RAMP]   2026-08-10 Mon    30   (preceding)
+[RAMP]   2026-08-11 Tue     0   (preceding)
+[RAMP]   2026-08-12 Wed     0   (preceding)
+[RAMP]   2026-08-13 Thu    30   (preceding)
+[RAMP]   2026-08-14 Fri     0   (preceding)
+[RAMP]   2026-08-15 Sat     0   (preceding)
+[RAMP]   2026-08-16 Sun     0   (preceding)
+[RAMP]   2026-08-17 Mon    35   (preceding)
+[RAMP]   2026-08-18 Tue     0   (preceding)
+[RAMP]   2026-08-19 Wed     0   (preceding)
+[RAMP]   2026-08-20 Thu    40   (preceding)
+[RAMP]   2026-08-21 Fri     0   (preceding)
+[RAMP]   2026-08-22 Sat     0   (preceding)
+[RAMP]   2026-08-23 Sun     0   (preceding)
+[RAMP]   2026-08-24 Mon    35   (preceding)
+[RAMP]   2026-08-25 Tue     0   (preceding)
+[RAMP]   2026-08-26 Wed     0   (preceding)
+[RAMP]   2026-08-27 Thu    40   (preceding)
+[RAMP]   2026-08-28 Fri     0   (preceding)
+[RAMP]   2026-08-29 Sat     0   (preceding)
+[RAMP]   2026-08-30 Sun     0   (preceding)
+[RAMP]   2026-08-31 Mon    35   (preceding)
+[RAMP]   2026-09-01 Tue     0   (preceding)
+[RAMP]   2026-09-02 Wed     0   (preceding)
+[RAMP]   2026-09-03 Thu    35   (preceding)
+[RAMP]   2026-09-04 Fri     0   (preceding)
+[RAMP]   2026-09-05 Sat     0   (preceding)
+[RAMP]   2026-09-06 Sun     0   (preceding)
+[RAMP]   2026-09-07 Mon    40   (preceding)
+[RAMP]   2026-09-08 Tue     0   (preceding)
+[RAMP]   2026-09-09 Wed     0   (preceding)
+[RAMP]   2026-09-10 Thu    45   (preceding)
+[RAMP]   2026-09-11 Fri     0   (preceding)
+[RAMP]   2026-09-12 Sat     0   (preceding)
+[RAMP]   2026-09-13 Sun     0   (preceding)
+[RAMP]   2026-09-14 Mon    40   (preceding)
+[RAMP]   2026-09-15 Tue     0   (preceding)
+[RAMP]   2026-09-16 Wed     0   (preceding)
+[RAMP]   2026-09-17 Thu    45   (preceding)
+[RAMP]   2026-09-18 Fri     0   (preceding)
+[RAMP]   2026-09-19 Sat     0   (preceding)
+[RAMP]   2026-09-20 Sun     0   (preceding)
+[RAMP]   2026-09-21 Mon    40   (preceding)
+[RAMP]   2026-09-22 Tue     0   (preceding)
+[RAMP]   2026-09-23 Wed     0   (preceding)
+[RAMP]   2026-09-24 Thu    40   (preceding)
+[RAMP]   2026-09-25 Fri     0   (preceding)
+[RAMP]   2026-09-26 Sat     0   (preceding)
+[RAMP]   2026-09-27 Sun     0   (preceding)
+[RAMP]   2026-09-28 Mon    35   (preceding)
+[RAMP]   2026-09-29 Tue     0   (preceding)
+[RAMP]   2026-09-30 Wed     0   (preceding)
+[RAMP]   2026-10-01 Thu    45   (preceding)
+[RAMP]   2026-10-02 Fri     0   (preceding)
+[RAMP]   2026-10-03 Sat     0   (preceding)
+[RAMP]   2026-10-04 Sun     0   (preceding)
+[RAMP]   2026-10-05 Mon    30   (preceding)
+[RAMP]   2026-10-06 Tue     0   (preceding)
+[RAMP]   2026-10-07 Wed     0   (preceding)
+[RAMP]   2026-10-08 Thu    30   (preceding)
+[RAMP]   2026-10-09 Fri     0   (preceding)
+[RAMP]   2026-10-10 Sat     0   (preceding)
+[RAMP]   2026-10-11 Sun     0   (preceding)
+[RAMP]   2026-10-12 Mon    25   (race week)
+[RAMP]   2026-10-13 Tue     0   (race week)
+[RAMP]   2026-10-14 Wed     0   (race week)
+[RAMP]   2026-10-15 Thu    20   (race week)
+[RAMP]   2026-10-16 Fri     0   (race week)
+[RAMP]   2026-10-17 Sat     0   (race week)
+[RAMP]   2026-10-18 Sun     0   (race week)
+[RAMP] preceding daily avg = 10.2 min over 84 days; race-week daily avg = 6.4 min
+[RAMP] preceding max day = 45 min; race-week max training day = 25 min
+[GATE] goal race: race-week load declines on both conditions — gate passes
+------------------------------------------------------------------------
+VERDICT: FINDINGS
+exit code: 1

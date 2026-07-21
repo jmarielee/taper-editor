@@ -1,0 +1,23 @@
+# trap-plan.ledger — extracted verbatim from trap-plan.md. Arithmetic happens
+# only in checker.py. Race priority is declared in the plan text itself:
+# "This is your A-race" — hence race_priority: goal, no hold.
+plan_start: 2025-06-29
+race_date: 2025-07-12
+race_priority: goal
+stated_total: 2025-06-29..2025-07-05 = 320 min
+stated_total: 2025-07-06..2025-07-12 = 330 min
+
+date | stated_weekday | duration_min | description
+2025-06-29 | Sun | 45 | "Sun, June 29 — Ride 45 min, steady"
+2025-06-30 | Mon | 50 | "Mon, June 30 — Run 50 min, easy"
+2025-07-01 | Tue | 40 | "Tue, July 1 — Swim 40 min, drills"
+2025-07-02 | Wed | 60 | "Wed, July 2 — Ride 60 min, tempo"
+2025-07-04 | Fri | 75 | "Fri, July 4 — Long ride 75 min"
+2025-07-05 | Sat | 50 | "Sat, July 5 — Run 50 min, easy"
+2025-07-06 | Sun | 60 | "Sun, July 6 — Ride 60 min, tempo"
+2025-07-07 | Mon | 90 | "Mon, July 7 — LONG BRICK 90 min (ride 60 + run 30)"
+2025-07-08 | Tue | 45 | "Tue, July 8 — Run intervals 45 min, hard"
+2025-07-09 | Wed | 45 | "Wed, July 9 — Swim 45 min"
+2025-07-10 | Thu | 60 | "Thu, July 10 — Ride 60 min with race-pace surges"
+2025-07-11 | Fri | 30 | "Fri, July 11 — Run 30 min, strides"
+2025-07-12 | Sat | 75 | "[RACE] Sat, July 12 — RACE DAY (sprint, ~75 min)"

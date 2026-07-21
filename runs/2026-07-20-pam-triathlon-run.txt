@@ -1,0 +1,139 @@
+checker.py report — pam-triathlon.ledger
+run at 2026-07-20 21:49 UTC
+plan_start=2027-04-19  race_date=2027-07-10  race_priority=goal
+------------------------------------------------------------------------
+[RAMP] pre-race-week row 2027-04-20 has no computable duration: ""Tue: Swim 200 warmup / 6x100 easy / 4x50 drills / 200 cooldown + Strength""
+[RAMP] pre-race-week row 2027-04-21 has no computable duration: ""Wed: Bike 45-60 minutes easy""
+[RAMP] pre-race-week row 2027-04-22 has no computable duration: ""Thu: Run 3 miles easy""
+[RAMP] pre-race-week row 2027-04-25 has no computable duration: ""Sun Week 1: Swim 800 yards continuous""
+[RAMP] pre-race-week row 2027-04-27 has no computable duration: ""Tue: Swim 200 warmup / 6x100 easy / 4x50 drills / 200 cooldown + Strength""
+[RAMP] pre-race-week row 2027-04-28 has no computable duration: ""Wed: Bike 45-60 minutes easy""
+[RAMP] pre-race-week row 2027-04-29 has no computable duration: ""Thu: Run 3 miles easy""
+[RAMP] pre-race-week row 2027-05-02 has no computable duration: ""Sun Week 2: Run 4 miles""
+[RAMP] pre-race-week row 2027-05-04 has no computable duration: ""Tue: Swim 200 warmup / 6x100 easy / 4x50 drills / 200 cooldown + Strength""
+[RAMP] pre-race-week row 2027-05-05 has no computable duration: ""Wed: Bike 45-60 minutes easy""
+[RAMP] pre-race-week row 2027-05-06 has no computable duration: ""Thu: Run 3 miles easy""
+[RAMP] pre-race-week row 2027-05-09 has no computable duration: ""Sun Week 3: Swim 1,000 yards""
+[RAMP] pre-race-week row 2027-05-11 has no computable duration: ""Recovery week: Swim 700 yards (day unstated)""
+[RAMP] pre-race-week row 2027-05-13 has no computable duration: ""Recovery week: Run 2 miles (day unstated)""
+[RAMP] pre-race-week row 2027-05-18 has no computable duration: ""Tue: Swim 200 warmup / 8x100 moderate / 4x50 fast / 200 cooldown + Strength""
+[RAMP] pre-race-week row 2027-05-19 has no computable duration: ""Wed: Bike 60-75 min, include 5x3 min hard""
+[RAMP] pre-race-week row 2027-05-20 has no computable duration: ""Thu: Run 4 miles (every other week 6x400m intervals)""
+[RAMP] pre-race-week row 2027-05-22 has no computable duration: ""Sat: Bike 75-90 min""
+[RAMP] pre-race-week row 2027-05-22 has no computable duration: ""Sat: Immediately Run 15-20 min""
+[RAMP] pre-race-week row 2027-05-23 has no computable duration: ""Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi""
+[RAMP] pre-race-week row 2027-05-25 has no computable duration: ""Tue: Swim 200 warmup / 8x100 moderate / 4x50 fast / 200 cooldown + Strength""
+[RAMP] pre-race-week row 2027-05-26 has no computable duration: ""Wed: Bike 60-75 min, include 5x3 min hard""
+[RAMP] pre-race-week row 2027-05-27 has no computable duration: ""Thu: Run 4 miles (every other week 6x400m intervals)""
+[RAMP] pre-race-week row 2027-05-29 has no computable duration: ""Sat: Bike 75-90 min""
+[RAMP] pre-race-week row 2027-05-29 has no computable duration: ""Sat: Immediately Run 15-20 min""
+[RAMP] pre-race-week row 2027-05-30 has no computable duration: ""Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi""
+[RAMP] pre-race-week row 2027-06-01 has no computable duration: ""Tue: Swim 200 warmup / 8x100 moderate / 4x50 fast / 200 cooldown + Strength""
+[RAMP] pre-race-week row 2027-06-02 has no computable duration: ""Wed: Bike 60-75 min, include 5x3 min hard""
+[RAMP] pre-race-week row 2027-06-03 has no computable duration: ""Thu: Run 4 miles (every other week 6x400m intervals)""
+[RAMP] pre-race-week row 2027-06-05 has no computable duration: ""Sat: Bike 75-90 min""
+[RAMP] pre-race-week row 2027-06-05 has no computable duration: ""Sat: Immediately Run 15-20 min""
+[RAMP] pre-race-week row 2027-06-06 has no computable duration: ""Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi""
+[RAMP] pre-race-week row 2027-06-08 has no computable duration: ""Recovery week: Swim 1,000 yards (day unstated)""
+[RAMP] pre-race-week row 2027-06-10 has no computable duration: ""Recovery week: Run 3 miles (day unstated)""
+[RAMP] pre-race-week row 2027-06-15 has no computable duration: ""Tue: Swim 1,600 yards, incl 8x100 at race pace""
+[RAMP] pre-race-week row 2027-06-17 has no computable duration: ""Thu: Run 5 miles, last mile at race pace""
+[RAMP] pre-race-week row 2027-06-19 has no computable duration: ""Sat: Race simulation bike 11 mi, immediately run 3 mi""
+[RAMP] pre-race-week row 2027-06-20 has no computable duration: ""Sun: open water swim 0.5-0.75 mi if possible""
+[RAMP] pre-race-week row 2027-06-22 has no computable duration: ""Tue: Swim 1,600 yards, incl 8x100 at race pace""
+[RAMP] pre-race-week row 2027-06-24 has no computable duration: ""Thu: Run 5 miles, last mile at race pace""
+[RAMP] pre-race-week row 2027-06-26 has no computable duration: ""Sat: Race simulation bike 11 mi, immediately run 3 mi""
+[RAMP] pre-race-week row 2027-06-27 has no computable duration: ""Sun: open water swim 0.5-0.75 mi if possible""
+[RAMP] pre-race-week row 2027-06-29 has no computable duration: ""Tue: Swim 1,500 yards""
+[RAMP] pre-race-week row 2027-07-01 has no computable duration: ""Thu: Run 5K time trial""
+[RAMP] pre-race-week row 2027-07-03 has no computable duration: ""Sat: Full brick swim 0.5mi/bike 11mi/run 2mi, easy effort""
+[RAMP] load table (training minutes/day; race excluded):
+[RAMP]   2027-04-19 Mon     0   (preceding)
+[RAMP]   2027-04-20 Tue     0   (preceding)
+[RAMP]   2027-04-21 Wed     0   (preceding)
+[RAMP]   2027-04-22 Thu    20   (preceding)
+[RAMP]   2027-04-23 Fri     0   (preceding)
+[RAMP]   2027-04-24 Sat    70   (preceding)
+[RAMP]   2027-04-25 Sun     0   (preceding)
+[RAMP]   2027-04-26 Mon     0   (preceding)
+[RAMP]   2027-04-27 Tue     0   (preceding)
+[RAMP]   2027-04-28 Wed     0   (preceding)
+[RAMP]   2027-04-29 Thu    20   (preceding)
+[RAMP]   2027-04-30 Fri     0   (preceding)
+[RAMP]   2027-05-01 Sat    70   (preceding)
+[RAMP]   2027-05-02 Sun     0   (preceding)
+[RAMP]   2027-05-03 Mon     0   (preceding)
+[RAMP]   2027-05-04 Tue     0   (preceding)
+[RAMP]   2027-05-05 Wed     0   (preceding)
+[RAMP]   2027-05-06 Thu    20   (preceding)
+[RAMP]   2027-05-07 Fri     0   (preceding)
+[RAMP]   2027-05-08 Sat    70   (preceding)
+[RAMP]   2027-05-09 Sun     0   (preceding)
+[RAMP]   2027-05-10 Mon     0   (preceding)
+[RAMP]   2027-05-11 Tue     0   (preceding)
+[RAMP]   2027-05-12 Wed    40   (preceding)
+[RAMP]   2027-05-13 Thu     0   (preceding)
+[RAMP]   2027-05-14 Fri     0   (preceding)
+[RAMP]   2027-05-15 Sat    45   (preceding)
+[RAMP]   2027-05-16 Sun     0   (preceding)
+[RAMP]   2027-05-17 Mon     0   (preceding)
+[RAMP]   2027-05-18 Tue     0   (preceding)
+[RAMP]   2027-05-19 Wed     0   (preceding)
+[RAMP]   2027-05-20 Thu     0   (preceding)
+[RAMP]   2027-05-21 Fri     0   (preceding)
+[RAMP]   2027-05-22 Sat     0   (preceding)
+[RAMP]   2027-05-23 Sun     0   (preceding)
+[RAMP]   2027-05-24 Mon     0   (preceding)
+[RAMP]   2027-05-25 Tue     0   (preceding)
+[RAMP]   2027-05-26 Wed     0   (preceding)
+[RAMP]   2027-05-27 Thu     0   (preceding)
+[RAMP]   2027-05-28 Fri     0   (preceding)
+[RAMP]   2027-05-29 Sat     0   (preceding)
+[RAMP]   2027-05-30 Sun     0   (preceding)
+[RAMP]   2027-05-31 Mon     0   (preceding)
+[RAMP]   2027-06-01 Tue     0   (preceding)
+[RAMP]   2027-06-02 Wed     0   (preceding)
+[RAMP]   2027-06-03 Thu     0   (preceding)
+[RAMP]   2027-06-04 Fri     0   (preceding)
+[RAMP]   2027-06-05 Sat     0   (preceding)
+[RAMP]   2027-06-06 Sun     0   (preceding)
+[RAMP]   2027-06-07 Mon     0   (preceding)
+[RAMP]   2027-06-08 Tue     0   (preceding)
+[RAMP]   2027-06-09 Wed    45   (preceding)
+[RAMP]   2027-06-10 Thu     0   (preceding)
+[RAMP]   2027-06-11 Fri     0   (preceding)
+[RAMP]   2027-06-12 Sat    55   (preceding)
+[RAMP]   2027-06-13 Sun     0   (preceding)
+[RAMP]   2027-06-14 Mon     0   (preceding)
+[RAMP]   2027-06-15 Tue     0   (preceding)
+[RAMP]   2027-06-16 Wed    75   (preceding)
+[RAMP]   2027-06-17 Thu     0   (preceding)
+[RAMP]   2027-06-18 Fri     0   (preceding)
+[RAMP]   2027-06-19 Sat     0   (preceding)
+[RAMP]   2027-06-20 Sun     0   (preceding)
+[RAMP]   2027-06-21 Mon     0   (preceding)
+[RAMP]   2027-06-22 Tue     0   (preceding)
+[RAMP]   2027-06-23 Wed    75   (preceding)
+[RAMP]   2027-06-24 Thu     0   (preceding)
+[RAMP]   2027-06-25 Fri     0   (preceding)
+[RAMP]   2027-06-26 Sat     0   (preceding)
+[RAMP]   2027-06-27 Sun     0   (preceding)
+[RAMP]   2027-06-28 Mon     0   (preceding)
+[RAMP]   2027-06-29 Tue     0   (preceding)
+[RAMP]   2027-06-30 Wed    90   (preceding)
+[RAMP]   2027-07-01 Thu     0   (preceding)
+[RAMP]   2027-07-02 Fri     0   (preceding)
+[RAMP]   2027-07-03 Sat     0   (preceding)
+[RAMP]   2027-07-04 Sun     0   (race week)
+[RAMP]   2027-07-05 Mon     0   (race week)
+[RAMP]   2027-07-06 Tue    20   (race week)
+[RAMP]   2027-07-07 Wed    30   (race week)
+[RAMP]   2027-07-08 Thu    20   (race week)
+[RAMP]   2027-07-09 Fri     0   (race week)
+[RAMP]   2027-07-10 Sat    25   (race week)
+[RAMP] preceding daily avg = 9.1 min over 76 days; race-week daily avg = 13.6 min
+[RAMP] preceding max day = 90 min; race-week max training day = 30 min
+[GATE] BLOCK — race-week daily average (13.6) is not below the preceding average (9.1)
+------------------------------------------------------------------------
+VERDICT: BLOCK
+No overall 'clear to train' may appear anywhere in the editor's report while this block is live (rules.md, Rule 1).

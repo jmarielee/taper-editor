@@ -1,0 +1,48 @@
+# july-2025-workouts.txt
+# Source: Apple Health export (export.xml inside export.zip), generated from
+#   Jodi's Apple Watch, extracted 2026-07-17 by the committed script parse_workouts.py.
+# Scope: Workout records only, 2025-07-01 through 2025-07-12. No heart rate,
+#   sleep, or other health records were extracted (the parser clears them unread).
+# This file is machine-generated. Do not hand-edit; regenerate with the parser.
+
+Date        Start   Type                        Duration    Distance      Energy
+------------------------------------------------------------------------------------
+2025-07-01  10:40   Cycling                     48 min      12.09 mi      448
+2025-07-01  11:32   Running                     11 min      1.01 mi       105
+2025-07-01  19:54   Pickleball                  41 min      -             187
+2025-07-02  13:16   Cycling                     27 min      6.06 mi       205
+2025-07-03  12:47   FunctionalStrengthTraining  53 min      -             165
+2025-07-03  13:41   Swimming                    27 min      41.00 laps*   282
+2025-07-04  08:12   Pickleball                  55 min      -             255
+2025-07-04  09:47   Cycling                     71 min      15.40 mi      517
+2025-07-04  15:24   Walking                     33 min      1.17 mi       83
+2025-07-06  07:34   Cycling                     47 min      11.04 mi      388
+2025-07-06  08:25   Running                     22 min      2.01 mi       210
+2025-07-06  11:46   Walking                     39 min      1.82 mi       179
+2025-07-07  14:07   Swimming                    26 min      41.00 laps*   278
+2025-07-08  08:24   Running                     32 min      3.01 mi       317
+2025-07-08  08:57   Walking                     8 min       0.28 mi       29
+2025-07-08  19:33   Walking                     24 min      1.11 mi       76
+2025-07-09  13:35   Cycling                     40 min      9.43 mi       342
+2025-07-09  14:18   Running                     11 min      1.01 mi       105
+2025-07-09  14:29   Walking                     5 min       0.21 mi       21
+2025-07-10  19:18   Walking                     124 min     5.98 mi       430
+2025-07-12  07:01   SwimBikeRun                 105 min     2.96 mi       963
+2025-07-12  16:49   Walking                     53 min      2.75 mi       171
+
+22 workouts in window
+
+* Watch pool lap length was set to 1 m, so swim distance was recorded as a lap
+  count, not meters. True distance = laps x actual pool length. In a standard
+  25 m pool, 41 laps is ~1,025 m, consistent with the ~1,050 m swim reported in
+  the ChatGPT conversation -- noted as an inference, not a measurement.
+
+# Known limitations (documented, not hidden):
+# - 2025-07-05 shows zero workouts; the conversation record says it was taken
+#   easier due to heat. Absence of a logged workout is consistent, not proof.
+# - The 2025-07-12 SwimBikeRun entry (105 min) is the race itself; reported
+#   finish 1:44. Its 2.96 mi distance reflects partial leg tracking, not the
+#   full course.
+# - The race-week "Monday run" recalled in conversation appears in the data as
+#   a Tuesday run (2025-07-08); Monday 2025-07-07 was a swim. Memory error,
+#   caught by the data, kept on record.

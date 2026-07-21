@@ -1,0 +1,27 @@
+checker.py report — trap-plan.ledger
+run at 2026-07-19 14:39 UTC
+plan_start=2025-06-29  race_date=2025-07-12  race_priority=goal
+------------------------------------------------------------------------
+[RAMP] load table (training minutes/day; race excluded):
+[RAMP]   2025-06-29 Sun    45   (preceding)
+[RAMP]   2025-06-30 Mon    50   (preceding)
+[RAMP]   2025-07-01 Tue    40   (preceding)
+[RAMP]   2025-07-02 Wed    60   (preceding)
+[RAMP]   2025-07-03 Thu     0   (preceding)
+[RAMP]   2025-07-04 Fri    75   (preceding)
+[RAMP]   2025-07-05 Sat    50   (preceding)
+[RAMP]   2025-07-06 Sun    60   (race week)
+[RAMP]   2025-07-07 Mon    90   (race week)
+[RAMP]   2025-07-08 Tue    45   (race week)
+[RAMP]   2025-07-09 Wed    45   (race week)
+[RAMP]   2025-07-10 Thu    60   (race week)
+[RAMP]   2025-07-11 Fri    30   (race week)
+[RAMP]   2025-07-12 Sat     0   (race week)
+[RAMP] preceding daily avg = 45.7 min over 7 days; race-week daily avg = 47.1 min
+[RAMP] preceding max day = 75 min; race-week max training day = 90 min
+[GATE] BLOCK — race-week daily average (47.1) is not below the preceding average (45.7)
+[GATE] BLOCK — a race-week training day (90 min) exceeds the largest preceding day (75 min)
+------------------------------------------------------------------------
+VERDICT: BLOCK
+No overall 'clear to train' may appear anywhere in the editor's report while this block is live (rules.md, Rule 1).
+exit code: 2

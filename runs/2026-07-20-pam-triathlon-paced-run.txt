@@ -1,0 +1,110 @@
+checker.py report — pam-triathlon-paced.ledger
+run at 2026-07-20 21:56 UTC
+plan_start=2027-04-19  race_date=2027-07-10  race_priority=goal
+------------------------------------------------------------------------
+[RAMP] pre-race-week row 2027-04-21 has no computable duration: ""Wed: Bike 45-60 minutes easy (range, uncounted)""
+[RAMP] pre-race-week row 2027-04-28 has no computable duration: ""Wed: Bike 45-60 minutes easy (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-05 has no computable duration: ""Wed: Bike 45-60 minutes easy (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-19 has no computable duration: ""Wed: Bike 60-75 min, incl 5x3 min hard (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-22 has no computable duration: ""Sat: Bike 75-90 min (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-22 has no computable duration: ""Sat: Immediately Run 15-20 min (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-23 has no computable duration: ""Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-26 has no computable duration: ""Wed: Bike 60-75 min, incl 5x3 min hard (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-29 has no computable duration: ""Sat: Bike 75-90 min (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-29 has no computable duration: ""Sat: Immediately Run 15-20 min (range, uncounted)""
+[RAMP] pre-race-week row 2027-05-30 has no computable duration: ""Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi (range, uncounted)""
+[RAMP] pre-race-week row 2027-06-02 has no computable duration: ""Wed: Bike 60-75 min, incl 5x3 min hard (range, uncounted)""
+[RAMP] pre-race-week row 2027-06-05 has no computable duration: ""Sat: Bike 75-90 min (range, uncounted)""
+[RAMP] pre-race-week row 2027-06-05 has no computable duration: ""Sat: Immediately Run 15-20 min (range, uncounted)""
+[RAMP] pre-race-week row 2027-06-06 has no computable duration: ""Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi (range, uncounted)""
+[RAMP] pre-race-week row 2027-06-20 has no computable duration: ""Sun: open water swim 0.5-0.75 mi if possible (range/conditional, uncounted)""
+[RAMP] pre-race-week row 2027-06-27 has no computable duration: ""Sun: open water swim 0.5-0.75 mi if possible (range/conditional, uncounted)""
+[RAMP] load table (training minutes/day; race excluded):
+[RAMP]   2027-04-19 Mon     0   (preceding)
+[RAMP]   2027-04-20 Tue    27   (preceding)
+[RAMP]   2027-04-21 Wed     0   (preceding)
+[RAMP]   2027-04-22 Thu    58   (preceding)
+[RAMP]   2027-04-23 Fri     0   (preceding)
+[RAMP]   2027-04-24 Sat    70   (preceding)
+[RAMP]   2027-04-25 Sun    18   (preceding)
+[RAMP]   2027-04-26 Mon     0   (preceding)
+[RAMP]   2027-04-27 Tue    27   (preceding)
+[RAMP]   2027-04-28 Wed     0   (preceding)
+[RAMP]   2027-04-29 Thu    58   (preceding)
+[RAMP]   2027-04-30 Fri     0   (preceding)
+[RAMP]   2027-05-01 Sat    70   (preceding)
+[RAMP]   2027-05-02 Sun    51   (preceding)
+[RAMP]   2027-05-03 Mon     0   (preceding)
+[RAMP]   2027-05-04 Tue    27   (preceding)
+[RAMP]   2027-05-05 Wed     0   (preceding)
+[RAMP]   2027-05-06 Thu    58   (preceding)
+[RAMP]   2027-05-07 Fri     0   (preceding)
+[RAMP]   2027-05-08 Sat    70   (preceding)
+[RAMP]   2027-05-09 Sun    22   (preceding)
+[RAMP]   2027-05-10 Mon     0   (preceding)
+[RAMP]   2027-05-11 Tue    16   (preceding)
+[RAMP]   2027-05-12 Wed    40   (preceding)
+[RAMP]   2027-05-13 Thu    25   (preceding)
+[RAMP]   2027-05-14 Fri     0   (preceding)
+[RAMP]   2027-05-15 Sat    45   (preceding)
+[RAMP]   2027-05-16 Sun     0   (preceding)
+[RAMP]   2027-05-17 Mon     0   (preceding)
+[RAMP]   2027-05-18 Tue    31   (preceding)
+[RAMP]   2027-05-19 Wed     0   (preceding)
+[RAMP]   2027-05-20 Thu    51   (preceding)
+[RAMP]   2027-05-21 Fri     0   (preceding)
+[RAMP]   2027-05-22 Sat     0   (preceding)
+[RAMP]   2027-05-23 Sun     0   (preceding)
+[RAMP]   2027-05-24 Mon     0   (preceding)
+[RAMP]   2027-05-25 Tue    31   (preceding)
+[RAMP]   2027-05-26 Wed     0   (preceding)
+[RAMP]   2027-05-27 Thu    51   (preceding)
+[RAMP]   2027-05-28 Fri     0   (preceding)
+[RAMP]   2027-05-29 Sat     0   (preceding)
+[RAMP]   2027-05-30 Sun     0   (preceding)
+[RAMP]   2027-05-31 Mon     0   (preceding)
+[RAMP]   2027-06-01 Tue    31   (preceding)
+[RAMP]   2027-06-02 Wed     0   (preceding)
+[RAMP]   2027-06-03 Thu    51   (preceding)
+[RAMP]   2027-06-04 Fri     0   (preceding)
+[RAMP]   2027-06-05 Sat     0   (preceding)
+[RAMP]   2027-06-06 Sun     0   (preceding)
+[RAMP]   2027-06-07 Mon     0   (preceding)
+[RAMP]   2027-06-08 Tue    22   (preceding)
+[RAMP]   2027-06-09 Wed    45   (preceding)
+[RAMP]   2027-06-10 Thu    38   (preceding)
+[RAMP]   2027-06-11 Fri     0   (preceding)
+[RAMP]   2027-06-12 Sat    55   (preceding)
+[RAMP]   2027-06-13 Sun     0   (preceding)
+[RAMP]   2027-06-14 Mon     0   (preceding)
+[RAMP]   2027-06-15 Tue    36   (preceding)
+[RAMP]   2027-06-16 Wed    75   (preceding)
+[RAMP]   2027-06-17 Thu    64   (preceding)
+[RAMP]   2027-06-18 Fri     0   (preceding)
+[RAMP]   2027-06-19 Sat    85   (preceding)
+[RAMP]   2027-06-20 Sun     0   (preceding)
+[RAMP]   2027-06-21 Mon     0   (preceding)
+[RAMP]   2027-06-22 Tue    36   (preceding)
+[RAMP]   2027-06-23 Wed    75   (preceding)
+[RAMP]   2027-06-24 Thu    64   (preceding)
+[RAMP]   2027-06-25 Fri     0   (preceding)
+[RAMP]   2027-06-26 Sat    85   (preceding)
+[RAMP]   2027-06-27 Sun     0   (preceding)
+[RAMP]   2027-06-28 Mon     0   (preceding)
+[RAMP]   2027-06-29 Tue    33   (preceding)
+[RAMP]   2027-06-30 Wed    90   (preceding)
+[RAMP]   2027-07-01 Thu    39   (preceding)
+[RAMP]   2027-07-02 Fri     0   (preceding)
+[RAMP]   2027-07-03 Sat    92   (preceding)
+[RAMP]   2027-07-04 Sun     0   (race week)
+[RAMP]   2027-07-05 Mon     0   (race week)
+[RAMP]   2027-07-06 Tue    20   (race week)
+[RAMP]   2027-07-07 Wed    30   (race week)
+[RAMP]   2027-07-08 Thu    20   (race week)
+[RAMP]   2027-07-09 Fri     0   (race week)
+[RAMP]   2027-07-10 Sat    25   (race week)
+[RAMP] preceding daily avg = 24.5 min over 76 days; race-week daily avg = 13.6 min
+[RAMP] preceding max day = 92 min; race-week max training day = 30 min
+[GATE] goal race: race-week load declines on both conditions — gate passes
+------------------------------------------------------------------------
+VERDICT: FINDINGS

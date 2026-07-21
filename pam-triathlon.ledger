@@ -1,0 +1,94 @@
+# pam-triathlon.ledger — extracted from evidence-pam-triathlon-verbatim.md
+# (the witness's AI-generated 12-week triathlon plan). Reconstructed
+# 2026-07-20 from the committed source text and verified to reproduce
+# runs/2026-07-20-pam-triathlon-run.txt exactly.
+# Anchoring: the plan states no dates, only week numbers and weekday names.
+# Anchored per the one fact in the athlete's prompt: the race is always the
+# second weekend in July — Saturday 2027-07-10 (event's public schedule,
+# checked 2026-07-20). Under that anchor the plan's own "Sunday Race Day"
+# lands on 2027-07-11, the day AFTER the real race — reported as a finding.
+# race_priority: goal — the athlete's prompt declares it ("I'd like to
+# improve my time from this year"; the whole plan builds to this race).
+# Durations: most sessions are stated in yards and miles with no pace, or as
+# ranges — uncomputable ("-"); converting would mean inventing a pace the
+# athlete never stated. Stated rest days are 0. Recovery weeks (4 and 8)
+# state no day for their sessions: assigned to the template's usual slots
+# (Tue swim / Wed bike / Thu run / Sat brick) with stated_weekday "-".
+# The race row (2027-07-11) sits outside the race-week window ending on
+# race_date and is excluded from all load math.
+plan_start: 2027-04-19
+race_date: 2027-07-10
+race_priority: goal
+
+date | stated_weekday | duration_min | description
+2027-04-20 | Tue | - | "Tue: Swim 200 warmup / 6x100 easy / 4x50 drills / 200 cooldown + Strength"
+2027-04-21 | Wed | - | "Wed: Bike 45-60 minutes easy"
+2027-04-22 | Thu | - | "Thu: Run 3 miles easy"
+2027-04-22 | Thu | 20 | "Thu: Optional 20-minute recovery swim"
+2027-04-24 | Sat | 60 | "Sat: Bike 60 minutes"
+2027-04-24 | Sat | 10 | "Sat: Immediately Run 10 minutes easy"
+2027-04-25 | Sun | - | "Sun Week 1: Swim 800 yards continuous"
+2027-04-27 | Tue | - | "Tue: Swim 200 warmup / 6x100 easy / 4x50 drills / 200 cooldown + Strength"
+2027-04-28 | Wed | - | "Wed: Bike 45-60 minutes easy"
+2027-04-29 | Thu | - | "Thu: Run 3 miles easy"
+2027-04-29 | Thu | 20 | "Thu: Optional 20-minute recovery swim"
+2027-05-01 | Sat | 60 | "Sat: Bike 60 minutes"
+2027-05-01 | Sat | 10 | "Sat: Immediately Run 10 minutes easy"
+2027-05-02 | Sun | - | "Sun Week 2: Run 4 miles"
+2027-05-04 | Tue | - | "Tue: Swim 200 warmup / 6x100 easy / 4x50 drills / 200 cooldown + Strength"
+2027-05-05 | Wed | - | "Wed: Bike 45-60 minutes easy"
+2027-05-06 | Thu | - | "Thu: Run 3 miles easy"
+2027-05-06 | Thu | 20 | "Thu: Optional 20-minute recovery swim"
+2027-05-08 | Sat | 60 | "Sat: Bike 60 minutes"
+2027-05-08 | Sat | 10 | "Sat: Immediately Run 10 minutes easy"
+2027-05-09 | Sun | - | "Sun Week 3: Swim 1,000 yards"
+2027-05-11 | - | - | "Recovery week: Swim 700 yards (day unstated)"
+2027-05-12 | - | 40 | "Recovery week: Bike 40 min (day unstated)"
+2027-05-13 | - | - | "Recovery week: Run 2 miles (day unstated)"
+2027-05-15 | - | 40 | "Recovery week: Brick bike 40 min (day unstated)"
+2027-05-15 | - | 5 | "Recovery week: Brick run 5 min (day unstated)"
+2027-05-18 | Tue | - | "Tue: Swim 200 warmup / 8x100 moderate / 4x50 fast / 200 cooldown + Strength"
+2027-05-19 | Wed | - | "Wed: Bike 60-75 min, include 5x3 min hard"
+2027-05-20 | Thu | - | "Thu: Run 4 miles (every other week 6x400m intervals)"
+2027-05-22 | Sat | - | "Sat: Bike 75-90 min"
+2027-05-22 | Sat | - | "Sat: Immediately Run 15-20 min"
+2027-05-23 | Sun | - | "Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi"
+2027-05-25 | Tue | - | "Tue: Swim 200 warmup / 8x100 moderate / 4x50 fast / 200 cooldown + Strength"
+2027-05-26 | Wed | - | "Wed: Bike 60-75 min, include 5x3 min hard"
+2027-05-27 | Thu | - | "Thu: Run 4 miles (every other week 6x400m intervals)"
+2027-05-29 | Sat | - | "Sat: Bike 75-90 min"
+2027-05-29 | Sat | - | "Sat: Immediately Run 15-20 min"
+2027-05-30 | Sun | - | "Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi"
+2027-06-01 | Tue | - | "Tue: Swim 200 warmup / 8x100 moderate / 4x50 fast / 200 cooldown + Strength"
+2027-06-02 | Wed | - | "Wed: Bike 60-75 min, include 5x3 min hard"
+2027-06-03 | Thu | - | "Thu: Run 4 miles (every other week 6x400m intervals)"
+2027-06-05 | Sat | - | "Sat: Bike 75-90 min"
+2027-06-05 | Sat | - | "Sat: Immediately Run 15-20 min"
+2027-06-06 | Sun | - | "Sun: alternate long swim 1,200-1,500 yd / long run 5-6 mi"
+2027-06-08 | - | - | "Recovery week: Swim 1,000 yards (day unstated)"
+2027-06-09 | - | 45 | "Recovery week: Bike 45 minutes (day unstated)"
+2027-06-10 | - | - | "Recovery week: Run 3 miles (day unstated)"
+2027-06-12 | - | 45 | "Recovery week: Brick 45 minute bike (day unstated)"
+2027-06-12 | - | 10 | "Recovery week: Brick 10 minute run (day unstated)"
+2027-06-15 | Tue | - | "Tue: Swim 1,600 yards, incl 8x100 at race pace"
+2027-06-16 | Wed | 75 | "Wed: Bike 75 minutes, include 4x5 minutes at race effort"
+2027-06-17 | Thu | - | "Thu: Run 5 miles, last mile at race pace"
+2027-06-19 | Sat | - | "Sat: Race simulation bike 11 mi, immediately run 3 mi"
+2027-06-20 | Sun | - | "Sun: open water swim 0.5-0.75 mi if possible"
+2027-06-22 | Tue | - | "Tue: Swim 1,600 yards, incl 8x100 at race pace"
+2027-06-23 | Wed | 75 | "Wed: Bike 75 minutes, include 4x5 minutes at race effort"
+2027-06-24 | Thu | - | "Thu: Run 5 miles, last mile at race pace"
+2027-06-26 | Sat | - | "Sat: Race simulation bike 11 mi, immediately run 3 mi"
+2027-06-27 | Sun | - | "Sun: open water swim 0.5-0.75 mi if possible"
+2027-06-29 | Tue | - | "Tue: Swim 1,500 yards"
+2027-06-30 | Wed | 90 | "Wed: Bike 90 minutes"
+2027-07-01 | Thu | - | "Thu: Run 5K time trial"
+2027-07-03 | Sat | - | "Sat: Full brick swim 0.5mi/bike 11mi/run 2mi, easy effort"
+2027-07-05 | Mon | 0 | "Race week: Mon Rest"
+2027-07-06 | Tue | 20 | "Race week: Tue Swim 20 minutes easy"
+2027-07-07 | Wed | 30 | "Race week: Wed Bike 30 minutes with a few pickups"
+2027-07-08 | Thu | 20 | "Race week: Thu Run 20 minutes easy"
+2027-07-09 | Fri | 0 | "Race week: Fri Rest"
+2027-07-10 | Sat | 15 | "Race week: Sat 15-minute bike"
+2027-07-10 | Sat | 10 | "Race week: Sat 10-minute run"
+2027-07-11 | Sun | - | "[RACE] Race week: Sun Race Day"

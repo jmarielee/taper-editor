@@ -1,0 +1,45 @@
+checker.py report — adjusted-plan.ledger
+run at 2026-07-19 14:39 UTC
+plan_start=2025-07-01  race_date=2025-07-12  race_priority=undeclared
+------------------------------------------------------------------------
+[WEEKDAY] 2025-07-01 is a Tuesday; plan labels it 'Monday' in: ""✅ Mon, July 1 — Weights + Swim — Done! Great start — full-body lift + 1050m swim""
+[WEEKDAY] 2025-07-02 is a Wednesday; plan labels it 'Tuesday' in: ""✅ Tues, July 2 — Bike + Run Brick + Pickleball — Done! High-output day""
+[WEEKDAY] 2025-07-03 is a Thursday; plan labels it 'Wednesday' in: ""Wed, July 3 — Recovery + Core — Light walk or yoga + 15–20 min core""
+[WEEKDAY] 2025-07-04 is a Friday; plan labels it 'Thursday' in: ""Thurs, July 4 — Run + Strength — Run 2 miles steady + light full-body strength (50–60% effort)""
+[WEEKDAY] 2025-07-05 is a Saturday; plan labels it 'Friday' in: ""Fri, July 5 — Pickleball + Swim — AM pickleball, then easy 800m swim or technique drills in PM""
+[WEEKDAY] 2025-07-06 is a Sunday; plan labels it 'Saturday' in: ""Sat, July 6 — Long Brick Day — 11–12 mile bike → 2–3 mile run. Mimic race setup if possible.""
+[WEEKDAY] 2025-07-07 is a Monday; plan labels it 'Sunday' in: ""Sun, July 7 — Full Rest — Walk, foam roll, hydrate. You earned this.""
+[WEEKDAY] 2025-07-08 is a Tuesday; plan labels it 'Monday' in: ""Mon, July 8 — Weights (light) + Short Run — Full-body strength (1 set per move), Run 2 miles easy""
+[WEEKDAY] 2025-07-09 is a Wednesday; plan labels it 'Tuesday' in: ""Tues, July 9 — Pickleball — Just pickleball today — keep pace moderate""
+[WEEKDAY] 2025-07-10 is a Thursday; plan labels it 'Wednesday' in: ""Wed, July 10 — Swim + Stretch — Swim: 800m easy + long stretching after""
+[WEEKDAY] 2025-07-11 is a Friday; plan labels it 'Thursday' in: ""Thurs, July 11 — Mobility + Gear Prep — Gentle yoga or foam roll + prep gear and nutrition""
+[WEEKDAY] 2025-07-12 is a Saturday; plan labels it 'Friday' in: ""[RACE] Fri, July 12 — TRIATHLON DAY! — Race strong and enjoy what you've trained for""
+[RAMP] race-week row 2025-07-06 has no computable duration: ""Sat, July 6 — Long Brick Day — 11–12 mile bike → 2–3 mile run. Mimic race setup if possible.""
+[RAMP] race-week row 2025-07-08 has no computable duration: ""Mon, July 8 — Weights (light) + Short Run — Full-body strength (1 set per move), Run 2 miles easy""
+[RAMP] race-week row 2025-07-09 has no computable duration: ""Tues, July 9 — Pickleball — Just pickleball today — keep pace moderate""
+[RAMP] race-week row 2025-07-10 has no computable duration: ""Wed, July 10 — Swim + Stretch — Swim: 800m easy + long stretching after""
+[RAMP] race-week row 2025-07-11 has no computable duration: ""Thurs, July 11 — Mobility + Gear Prep — Gentle yoga or foam roll + prep gear and nutrition""
+[RAMP] pre-race-week row 2025-07-01 has no computable duration: ""✅ Mon, July 1 — Weights + Swim — Done! Great start — full-body lift + 1050m swim""
+[RAMP] pre-race-week row 2025-07-02 has no computable duration: ""✅ Tues, July 2 — Bike + Run Brick + Pickleball — Done! High-output day""
+[RAMP] pre-race-week row 2025-07-03 has no computable duration: ""Wed, July 3 — Recovery + Core — Light walk or yoga + 15–20 min core""
+[RAMP] pre-race-week row 2025-07-04 has no computable duration: ""Thurs, July 4 — Run + Strength — Run 2 miles steady + light full-body strength (50–60% effort)""
+[RAMP] pre-race-week row 2025-07-05 has no computable duration: ""Fri, July 5 — Pickleball + Swim — AM pickleball, then easy 800m swim or technique drills in PM""
+[RAMP] load table (training minutes/day; race excluded):
+[RAMP]   2025-07-01 Tue     0   (preceding)
+[RAMP]   2025-07-02 Wed     0   (preceding)
+[RAMP]   2025-07-03 Thu     0   (preceding)
+[RAMP]   2025-07-04 Fri     0   (preceding)
+[RAMP]   2025-07-05 Sat     0   (preceding)
+[RAMP]   2025-07-06 Sun     0   (race week)
+[RAMP]   2025-07-07 Mon     0   (race week)
+[RAMP]   2025-07-08 Tue     0   (race week)
+[RAMP]   2025-07-09 Wed     0   (race week)
+[RAMP]   2025-07-10 Thu     0   (race week)
+[RAMP]   2025-07-11 Fri     0   (race week)
+[RAMP]   2025-07-12 Sat     0   (race week)
+[RAMP] preceding daily avg = 0.0 min over 5 days; race-week daily avg = 0.0 min
+[RAMP] preceding max day = 0 min; race-week max training day = 0 min
+[GATE] HOLD — the plan contains a race whose priority is undeclared. One question: "Is this race the goal, or training for something else?"
+------------------------------------------------------------------------
+VERDICT: HOLD
+exit code: 3
