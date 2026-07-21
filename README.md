@@ -10,7 +10,7 @@ A taper is one of endurance training’s most basic principles: reduce the load 
 
 I knew that. But when ChatGPT gave me a heavier race-week plan, I followed it anyway. The plan sounded confident, and I let that confidence override my better judgment.
 
-I felt fine at the starting line. Midway through the race, I discovered how fatigued I actually was. I finished in 1:44—four minutes slower than the previous year, when my bike shoe broke at the start of the ride and I completed most of the cycling leg without a full pedal stroke.
+I felt fine at the starting line. Midway through the race, I discovered how fatigued I actually was. I finished in 1:44, four minutes slower than the previous year, when my bike shoe broke at the start of the ride and I completed most of the cycling leg without a full pedal stroke.
 
 The plan had also labeled race day “Fri, July 12.” July 12, 2025 was a Saturday. That mistake did not cost me the race, but it showed that the plan had not checked even its own calendar.
 
