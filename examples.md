@@ -54,6 +54,12 @@ Everything else I found stands on its own. Here it is, most important first.
 
 **The problem:** *Calendar and arithmetic integrity*, again — if a plan's training amounts can't be added up, that itself is a finding. An athlete executes numbers. Only two of twelve days state how long anything should take, so there is no way — for you or for me — to compute whether your final week actually winds down.
 
+**What it costs you:** "Taper" means reducing your training in the last stretch before a race so you arrive rested. This plan *claims* to taper (see Finding 4), but with no durations, the claim can't be verified and you can't follow it precisely. "Keep pace moderate" is a mood, not a workout. On any given day you're deciding the actual dose yourself — which means the plan isn't really deciding anything.
+
+**Your call:** Before you trust a plan like this again — should a plan that can't be added up be allowed to tell you it tapers?
+
+*(This specimen is presented through its first two findings; the complete report — all 5 findings, same four-part contract — is `report-2025-adjusted-plan.md`, which is canonical.)*
+
 ---
 
 ## Specimen 2 — The planted trap: BLOCK
@@ -335,6 +341,7 @@ athlete's own stated paces attached, the block clears — the follow-up
 report she received is committed (`witness-pdfs/pamtriathlonfollowup.pdf`;
 `pam-triathlon-paced.ledger` and its receipt; the full mechanism, numbers,
 and why it isn't patched are in `LIMITATIONS.md`).
+**Correction, 2026-07-21:** the as-sent report PDF anchors the race date with wording the committed source does not support ("publicly scheduled," attributed to the athlete's prompt — her prompt says only "next year"). The committed report was corrected and now labels the date anchor as an assumption; the PDF is preserved exactly as sent, per this repo's rule against retroactively editing delivered artifacts.
 **Why it's here:** this is the specimen where the tool disagrees with
 itself in public — the checker's verdict was correct for its input and
 still misleading about the plan, and the athlete who owns the plan pushed
@@ -364,11 +371,11 @@ I read your whole plan. Here's what I found, most important first.
 
 **Your plan says:** "Saturday — 15-minute bike, 10-minute run" ... "Sunday — Race Day."
 
-**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so I anchored it using the one fact you gave the AI: this race is always the second weekend in July. That places your race week across July 5–11, 2027 — and the real Anchor Bay Triathlon, publicly scheduled for July 10, 2027, falls on a Saturday. Under the plan's own day-by-day template, the day it calls a light shakeout is the actual race day, and the day it calls "Race Day" is the Sunday after the race already happened.
+**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so evaluating it required an anchor, and that anchor is an assumption on the record, not a fact: your prompt says only "next year." The event ran Saturday, July 12, 2025 and is officially scheduled for Saturday, July 11, 2026 (the race's own site); no 2027 date is published yet. On that second-Saturday pattern, race day would be Saturday, July 10, 2027 — placing your race week across July 5–11, 2027. Under the plan's own day-by-day template, the day it calls a light shakeout is the assumed race day, and the day it calls "Race Day" is the Sunday after the race already happened.
 
 **What it costs you:** if you followed the plan's labels as written, you'd expect one more easy day between your shakeout and the start line. There isn't one.
 
-**Your call:** which governs — the plan's generic Saturday/Sunday template, or the real date?
+**Your call:** what is the confirmed 2027 race date — and once you have it, which governs: the plan's generic Saturday/Sunday template, or that date?
 
 ---
 

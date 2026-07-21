@@ -41,6 +41,10 @@ On 2026-07-20, an independent professional (Natalie — trainer, named with cons
 
 This is logged as a limitation rather than patched, for the same reason as the load-proxy case above: a ninth rule the day before submission would be untested against six specimens whose credibility rides on the current, tested eight, and the design gate — eight rules is the ceiling; new edge cases become test artifacts or documented boundaries — exists precisely for this moment.
 
+## The comparison window is the whole preceding period, not a recent trend
+
+The race-week gate compares race week against the average and maximum of every day from plan start through the week before race week — not against the most recent training block. For a long progressive plan, the whole-period average sits below the recent peak, which makes this comparison *easier* to pass than a recent-weeks window would be; the max-day condition partly compensates, since the biggest day usually lands late. The window choice is design judgment, disclosed here; the documentation now states exactly what the code computes.
+
 ## The honest summary
 
 This editor will occasionally block a plan that is actually fine, specifically when that plan states most of its volume in distance rather than time. When that happens, the fix is the same one this editor already asks for in Findings 1 and 2 of Specimen 3, and Findings 1 and 2 of Specimen 6: give it a pace. Until then, a BLOCK from this tool means "the math didn't clear," not "the plan is unsafe" — and the report says so, every time, rather than letting a technical verdict masquerade as a training judgment.

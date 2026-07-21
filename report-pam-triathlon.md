@@ -15,6 +15,13 @@ Quote note: the source plan formats each session across multiple short lines
 line-broken formatting into single lines; every word appears contiguously in
 evidence-pam-triathlon-verbatim.md, verified with whitespace-normalized
 matching 2026-07-20. No words were added or joined across sessions.
+>>> CORRECTED 2026-07-21: the calendar finding previously called July 10, 2027
+>>> "publicly scheduled" and attributed the second-weekend pattern to the
+>>> athlete's prompt. Both claims were unsupported: the prompt says only "next
+>>> year," and no 2027 date is published (2025 ran Sat Jul 12; 2026 is Sat
+>>> Jul 11, per the event's official site, checked 2026-07-21). The date anchor
+>>> itself is unchanged and is now labeled the assumption it always was. The
+>>> as-sent witness PDF preserves the original wording; it is not edited.
 -->
 
 # The Taper Editor — report on your triathlon plan
@@ -41,11 +48,11 @@ I read your whole plan. Here's what I found, most important first.
 
 **Your plan says:** "Saturday — 15-minute bike, 10-minute run" ... "Sunday — Race Day."
 
-**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so I anchored it using the one fact you gave the AI: this race is always the second weekend in July. That places your race week across July 5–11, 2027 — and the real Anchor Bay Triathlon, publicly scheduled for July 10, 2027, falls on a Saturday. Under the plan's own day-by-day template, the day it calls a light shakeout is the actual race day, and the day it calls "Race Day" is the Sunday after the race already happened.
+**The problem:** *Calendar and arithmetic integrity* — the plan never states an actual date, only week numbers and weekday names, so evaluating it required an anchor, and that anchor is an assumption on the record, not a fact: your prompt says only "next year." The event ran Saturday, July 12, 2025 and is officially scheduled for Saturday, July 11, 2026 (the race's own site); no 2027 date is published yet. On that second-Saturday pattern, race day would be Saturday, July 10, 2027 — placing your race week across July 5–11, 2027. Under the plan's own day-by-day template, the day it calls a light shakeout is the assumed race day, and the day it calls "Race Day" is the Sunday after the race already happened.
 
 **What it costs you:** if you followed the plan's labels as written, you'd expect one more easy day between your shakeout and the start line. There isn't one.
 
-**Your call:** which governs — the plan's generic Saturday/Sunday template, or the real date?
+**Your call:** what is the confirmed 2027 race date — and once you have it, which governs: the plan's generic Saturday/Sunday template, or that date?
 
 ---
 

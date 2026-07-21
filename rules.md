@@ -35,9 +35,9 @@ Severity is a design decision. Only one check sits close enough to the body to b
 
 ## Rule 1 — Race-week load (BLOCK)
 
-**Looking for:** if the plan states or implies a race date, the final 7 days must show declining load relative to the preceding trend.
+**Looking for:** if the plan states or implies a race date, the final 7 days must show declining load relative to the average and the maximum across the preceding plan period.
 
-**Failure pattern:** the plan schedules new or increased volume inside race week — added sessions, longer distances, or intensity work that exceeds the taper trend.
+**Failure pattern:** the plan schedules new or increased volume inside race week — added sessions, longer distances, or a race-week load that exceeds the preceding period's average or its biggest day.
 
 **Why it matters:** race-week load reduction is one of the few near-universal principles in endurance training. Being wrong here costs the race the whole plan exists for, and the cost is paid by a body.
 
