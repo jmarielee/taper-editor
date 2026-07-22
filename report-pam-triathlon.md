@@ -39,7 +39,7 @@ I read your whole plan. Here's what I found, most important first.
 
 **What it costs you:** right now, neither the machine count nor I can tell whether your race week genuinely ramps up or whether eleven weeks of real training are simply invisible to a count that only understands minutes. That's not a small gap — it's most of the plan.
 
-**Your call:** attach a rough pace to the distance-based sessions — even one number per discipline — and this can be recomputed. If your real training load is anywhere near what those distances imply, this block almost certainly clears.
+**Your call:** What rough pace can you give for each discipline so the distance-based sessions can be recomputed?
 
 ---
 
