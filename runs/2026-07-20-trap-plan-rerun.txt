@@ -24,4 +24,4 @@ plan_start=2025-06-29  race_date=2025-07-12  race_priority=goal
 ------------------------------------------------------------------------
 VERDICT: BLOCK
 No overall 'clear to train' may appear anywhere in the editor's report while this block is live (rules.md, Rule 1).
-exit code: 2
+
