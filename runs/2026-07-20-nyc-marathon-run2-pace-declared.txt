@@ -114,4 +114,4 @@ plan_start=2026-07-20  race_date=2026-11-01  race_priority=goal
 [GATE] HOLD — race-week load cannot be verified: 1 race-week row(s) state a distance or activity but no computable time. Distance-based sessions are normal coaching; they are unverifiable without a pace or time the athlete states. A goal-race gate cannot pass unverified. One question: "About how many minutes does each of these race-week sessions usually take you?"
 ------------------------------------------------------------------------
 VERDICT: HOLD
-exit code: 3
+
