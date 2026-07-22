@@ -66,14 +66,16 @@ Before any rule applies, a scope precondition asks two questions: is this AI-gen
 
 `examples.md` holds six dated editor sessions covering every verdict the editor can return. Five are checker-backed and have committed machine receipts in `runs/`; Specimen 5 is a documented model-only scope decline:
 
-| # | What | Verdict |
-|---|---|---|
-| 1 | The original 2025 plan that started this project | HOLD |
-| 2 | A constructed trap, built to violate the one hard rule | BLOCK |
-| 3 | A real Detroit half marathon plan | PASS, 5 flags |
-| 4 | A real NYC Marathon plan, external witness | PASS, 3 flags |
-| 5 | A real strength program — the scope decline | DECLINE |
-| 6 | A real triathlon plan, second external witness | BLOCK, disputed — see below |
+| # | What | Editor verdict | Machine receipt |
+|---|---|---|---|
+| 1 | The original 2025 plan that started this project | HOLD | HOLD |
+| 2 | A constructed trap, built to violate the one hard rule | BLOCK | BLOCK |
+| 3 | A real Detroit half marathon plan | PASS, 5 flags | FINDINGS |
+| 4 | A real NYC Marathon plan, external witness | PASS, 3 flags | CLEAN |
+| 5 | A real strength program — the scope decline | DECLINE | — (model-only) |
+| 6 | A real triathlon plan, second external witness | BLOCK, disputed — see below | BLOCK |
+
+**Two columns, on purpose.** The **machine receipt** is the exact word `checker.py` prints — one of `CLEAN`, `FINDINGS`, `HOLD`, `BLOCK`. The **editor verdict** is the model-reviewed layer on top of it — `PASS`, `HOLD`, `BLOCK`, or `DECLINE`. A machine `FINDINGS` or `CLEAN` can carry non-blocking flags the editor surfaces and the athlete may accept, which the editor reports as a `PASS` with its flag count; only a machine `BLOCK` forces an editor `BLOCK`. Specimen 5 is a scope decline with no ledger, so it has no machine receipt at all. The words differ by design; if a receipt in `runs/` says `FINDINGS` where this table says `PASS`, that's the two layers, not a contradiction.
 
 Four of these six specimens are constructed or real-but-private test cases; two — Specimens 4 and 6 — came from people who are not the builder, reviewing plans they actually intended to follow, with consent and preview before anything was committed. The Specimen 4 witness is anonymous by her own request, and stays that way everywhere in this repo.
 
