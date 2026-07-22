@@ -1,14 +1,15 @@
 # examples.md — what the editor's voice sounds like in practice
 
 This file is canonical for tone and demonstrates rules.md and identity.md in
-practice. Every specimen below is a real, dated run — the editor's plain-English
-output, exactly as returned, backed by a committed machine receipt in `runs/`.
-Nothing here is authored or hypothetical. Where a specimen's report exists as
-its own file elsewhere in the repo, that file remains canonical for its
-content; this file exists so the six specimens can be read together, in
-order, as one demonstration of the voice across every verdict the editor can
-return: HOLD, BLOCK (twice — once planted, once live and disputed),
-PASS-with-flags (twice), and DECLINE.
+practice. Each specimen below comes from a dated editor session. Specimen 1 is
+abridged here, with its complete standalone report committed separately.
+Specimen 2 uses a deliberately constructed trap plan. Specimens 1–4 and 6 are
+backed by committed machine receipts in `runs/`; Specimen 5 demonstrates the
+model-only scope gate and is preserved as a documented session rather than a
+checker run. Where a standalone report exists elsewhere in the repo, that file
+remains canonical. This file brings all six specimens together to demonstrate
+the voice across every verdict the editor can return: HOLD, BLOCK (twice —
+once planted, once live and disputed), PASS-with-flags (twice), and DECLINE.
 
 ---
 
@@ -91,7 +92,7 @@ I read your whole plan. Here's what I found, most important first.
 
 **What it costs you:** the race. Race-week load reduction is one of the few near-universal principles in endurance training — you declared this race the goal, and this plan spends your race-day legs in the five days before you need them. You'd start the race your whole plan exists for carrying the fatigue of its hardest week.
 
-**Your call:** I don't rewrite plans and I won't tell you which session to change — that's yours. But this editor will not pass this plan while its final week out-trains the weeks before it. Resolve the final week, or race knowing the plan failed its one hard check.
+**Your call:** What has to change so race week is lighter than the weeks that came before it?
 
 ---
 
