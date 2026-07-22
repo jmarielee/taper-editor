@@ -42,4 +42,4 @@ plan_start=2025-07-01  race_date=2025-07-12  race_priority=undeclared
 [GATE] HOLD — the plan contains a race whose priority is undeclared. One question: "Is this race the goal, or training for something else?"
 ------------------------------------------------------------------------
 VERDICT: HOLD
-exit code: 3
+
