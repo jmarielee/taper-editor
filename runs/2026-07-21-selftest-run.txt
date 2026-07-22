@@ -8,4 +8,3 @@ PASS  mixed_unit_baseline_false_block (KNOWN LIMITATION pinned — expect BLOCK)
 PASS  control_clean_taper (expect CLEAN — this must NOT fire)  (exit 0, wanted 0; marker found)
 
 selftest: 8/8 passed
-

@@ -7,4 +7,3 @@ PASS  goal_race_unverifiable_race_week (expect HOLD — cannot pass unverified) 
 PASS  control_clean_taper (expect CLEAN — this must NOT fire)  (exit 0, wanted 0; marker found)
 
 selftest: 7/7 passed
-

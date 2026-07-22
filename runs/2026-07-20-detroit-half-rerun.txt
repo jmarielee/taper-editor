@@ -111,4 +111,3 @@ plan_start=2026-07-20  race_date=2026-10-18  race_priority=goal
 [GATE] goal race: race-week load declines on both conditions — gate passes
 ------------------------------------------------------------------------
 VERDICT: FINDINGS
-
