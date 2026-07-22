@@ -30,7 +30,7 @@ I read your whole plan. Here's what I found, most important first.
 
 **What it costs you:** the race. Race-week load reduction is one of the few near-universal principles in endurance training — you declared this race the goal, and this plan spends your race-day legs in the five days before you need them. You'd start the race your whole plan exists for carrying the fatigue of its hardest week.
 
-**Your call:** I don't rewrite plans and I won't tell you which session to change — that's yours. But this editor will not pass this plan while its final week out-trains the weeks before it. Resolve the final week, or race knowing the plan failed its one hard check.
+**Your call:** What has to change so race week is lighter than the weeks that came before it?
 
 ---
 
