@@ -41,7 +41,7 @@ Every rule in this repo traces back to something a real AI-generated plan actual
 **As a deterministic checker**, no model required:
 ```
 python3 checker.py --selftest          # confirms the rule engine itself: 8/8, including one test that must NOT fire and one that pins a known limitation
-python3 checker.py trap-plan.ledger    # reproduces any specimen's verdict from its ledger
+python3 checker.py trap-plan.ledger    # reproduces a checker-backed specimen's verdict from its ledger
 ```
 Every ledger in this repo reproduces its committed **machine receipt** — the checker's deterministic output — exactly, on demand, apart from the run at … timestamp in the receipt's header, which reflects the moment you run it. (The editor's full verdicts in the table below layer model-reviewed editorial flags on top of that machine state; the flags live in the reports, the arithmetic lives in the receipts.) Where a specimen went through intermediate HOLDs before a declaration landed (Specimens 3 and 4), the intermediate receipts are preserved in runs/, but the ledgers were updated in place as athlete declarations were recorded — so the committed ledger reproduces the final state, and the earlier receipts document the path. That scoping is stated here so nobody has to discover it.
 
