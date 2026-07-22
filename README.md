@@ -24,13 +24,13 @@ That plan is the repo's planted trap — committed in full (`trap-plan.md`) so a
 
 ## Why this exists
 
-In July 2025, I asked ChatGPT for a taper plan for a local sprint triathlon. I followed it. I felt fine at the start line — I found out how fried I was in the middle of the race, when there was nothing left to find. I finished in 1:44.
+In July 2025, I asked ChatGPT for a taper plan for a local sprint triathlon. I followed it. I felt fine at the start line until I found out how fried I was in the middle of the race, when there was nothing left to find. I finished in 1:44.
 
-The year before, my bike shoe broke at the start of the bike leg. Any cyclist can tell you what that costs: the pull-up half of every pedal stroke, gone for the entire ride. That race — broken equipment, half a pedal stroke — was still four minutes faster than the race where I followed the plan.
+The year before, my bike shoe broke at the start of the bike leg. Any cyclist can tell you what that costs: the pull-up half of every pedal stroke, gone for the entire ride. That race, with broken equipment and half a pedal stroke, was still four minutes faster than the race where I followed the plan.
 
-The plan had also labeled race day "Fri, July 12." July 12, 2025 was a Saturday. I didn't catch it, and the plan didn't catch itself. That mistake didn't cost me the race — but it told me what I was dealing with: a plan that can't count days shouldn't be trusted to count load unchecked.
+The plan had also labeled race day "Fri, July 12." July 12, 2025 was a Saturday. I didn't catch it, and the plan didn't catch itself. That mistake didn't cost me the race, but it told me what I was dealing with: a plan that can't count days shouldn't be trusted to count load unchecked.
 
-The worst part: I knew better. I've raced enough to know what a taper is supposed to look like, and that final week didn't look like one — but the plan sounded so informed, so sure of itself, that I followed it over my own judgment. That's the failure this editor exists for. A newer athlete doesn't know which claims to question; an experienced one can still be talked out of what she knows. Either way, the plan's confidence goes unchecked — so this tool checks it.
+The worst part: I knew better. I've raced enough to know what a taper is supposed to look like, and that final week didn't look like one. But the plan sounded so informed, so sure of itself, that I followed it over my own judgment. That's the failure this editor exists for. A newer athlete doesn't know which claims to question; an experienced one can still be talked out of what she knows. Either way, the plan's confidence goes unchecked, so this tool checks it.
 
 Every rule in this repo traces back to something a real AI-generated plan actually did wrong. Most of them from that same plan. Some from plans that came after it, while this tool was being built. `examples.md`, Specimen 1, is the report I wish I'd had before July 12.
 
