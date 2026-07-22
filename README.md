@@ -87,7 +87,7 @@ Four of these six specimens are constructed or real-but-private test cases; two 
 
 ## Where this tool disagrees with itself, on the record
 
-One external test (Specimen 6) exposed a mixed-unit limitation: run as written, the checker returned a BLOCK that was deterministic, reproducible — and arguably wrong. The athlete who owns that plan read the same evidence and disputes even that framing: she reads the plan's unit inconsistency as a genuine red flag in its own right. Both runs are committed, the disagreement is kept unresolved, and the full mechanism — including why it isn't being patched under deadline pressure — is in `LIMITATIONS.md`. The full exchange is Specimen 6 in `examples.md`.
+One external test (Specimen 6) exposed a mixed-unit limitation: run as written, the checker returned a BLOCK that was deterministic, reproducible — and arguably wrong. The athlete who owns that plan read the same evidence and disputes even that framing: she reads the plan's unit inconsistency as a genuine red flag in its own right. Both runs are committed, the disagreement is kept unresolved, and the full mechanism — including why it isn't being patched under deadline pressure — is in LIMITATIONS.md. The full exchange is Specimen 6 in examples.md. What did change: instead of only writing this mistake down, I turned it into a check the tool runs on itself — the eighth one. It re-tests this exact case every time and fails loudly if the behavior ever drifts, so the limitation is locked into the code, not just noted in a file. No future change to it can happen quietly, including by me.
 
 ## File map
 
