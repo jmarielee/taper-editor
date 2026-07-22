@@ -53,7 +53,7 @@ Strength train for 35–45 minutes:
 * Row or pulldown
 * Core work
 
-Keep **two or three repetitions in reserve**. Once your long run reaches seven miles, this is not the time to chase another deadlift PR. Strong supporting muscles can help the [joint] absorb load, but strength work needs to support the running rather than compete with it. ([OrthoInfo][2])
+Keep **two or three repetitions in reserve**. Once your long run reaches seven miles, this is not the time to chase another deadlift PR. Strong supporting muscles can help the [joint] absorb load, but strength work needs to support the running rather than compete with it. 
 
 An easy swim or 20–30 minutes of cycling can follow if you feel good.
 
@@ -144,6 +144,5 @@ The International Half has a four-hour last-chance pace, while the Motor City Ha
 Your real milestone is not running ten miles continuously. It is completing the Week 11 ten-miler with your planned walk breaks, manageable fatigue and **no [joint] swelling later that day or the next morning**. If you can do that, you will be positioned to cross the finish line comfortably.
 
 [1]: https://www.freepmarathon.com/international-half-marathon/ "Detroit Free Press Marathon – International Half-Marathon"
-[2]: https://orthoinfo.aaos.org/en/recovery/knee-conditioning-program/ "Knee Conditioning Program - OrthoInfo - AAOS"
-[3]: https://www.massgeneral.org/orthopaedics/sports-medicine/womens-sports-medicine/running-injury-prevention?utm_source=chatgpt.com "Running Injury Prevention | Women's Sports Medicine | Mass General"
-[4]: https://acsm.org/gssi-energy-nutrition/?utm_source=chatgpt.com "GSSI Presented Webinar Q&A | Energy Demands and Nutrition Considerations for Adolescent Athletes"
+[2]: https://www.massgeneral.org/orthopaedics/sports-medicine/womens-sports-medicine/running-injury-prevention?utm_source=chatgpt.com "Running Injury Prevention | Women's Sports Medicine | Mass General"
+[3]: https://acsm.org/gssi-energy-nutrition/?utm_source=chatgpt.com "GSSI Presented Webinar Q&A | Energy Demands and Nutrition Considerations for Adolescent Athletes"
