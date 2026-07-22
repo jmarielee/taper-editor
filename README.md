@@ -2,7 +2,7 @@
 
 An editor for AI-generated endurance training plans — running and triathlon — with particular authority over the final phase: whether the calendar, the workload, and the race-week claims support an actual taper. It doesn't rewrite your plan and it doesn't coach your body. It reads what an AI wrote for you, checks it against eight structural rules — with the race-week rule, and all calendar and total arithmetic, enforced by a deterministic checker rather than model judgment, and hands it back with findings: what the plan says, what rule it breaks, what that costs you, and a question for you to answer. You decide what to do with it.
 
-Built for Clief Notes Comp #9. Domain: AI-generated endurance training plans, for the runner or triathlete about to follow one.
+Built for Clief Notes Comp #9. Domain: checking AI-generated endurance training plans, for the runner or triathlete about to follow one.
 
 ## The sixty-second version
 
