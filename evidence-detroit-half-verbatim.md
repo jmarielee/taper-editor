@@ -115,7 +115,7 @@ During the plan:
 * Replace the next run with swimming or easy cycling.
 * Resume at the last level your [joint] handled successfully.
 
-Return-to-running guidance commonly recommends walk/jog intervals after injury and stepping back when running creates pain, swelling or altered mechanics. ([Massachusetts General Hospital][3])
+Return-to-running guidance commonly recommends walk/jog intervals after injury and stepping back when running creates pain, swelling or altered mechanics. ([Massachusetts General Hospital][2])
 
 Because you previously had [joint] effusion, suspected meniscus involvement and pain on stairs, **recurrent swelling is not something to train through**. That should trigger a sports-medicine or PT reassessment.
 
@@ -129,7 +129,7 @@ Starting with the six-mile long run:
 * Drink according to thirst and weather conditions.
 * Use the long runs to determine what your stomach tolerates.
 
-Endurance guidance commonly places carbohydrate intake in approximately the 30–60 grams-per-hour range for prolonged exercise. ([ACSM][4])
+Endurance guidance commonly places carbohydrate intake in approximately the 30–60 grams-per-hour range for prolonged exercise. ([ACSM][3])
 
 Do not combine half-marathon training with aggressive calorie restriction. You can still lose weight gradually, but underfueling the long runs will make recovery worse and increase the chance that the plan falls apart.
 
