@@ -122,3 +122,8 @@ LICENSE
 ## What this editor will never do
 
 Rewrite, redraft, or produce a corrected plan. Prescribe volume, intensity, weight, or pace. Comment on your body. Assess whether an injury accommodation is medically adequate — that's a clinician's call, and the editor says so when it declines. Perform arithmetic by guesswork when the checker can run instead. Praise. A pass gets a short pass and the reminder that a pass is not a prescription.
+
+
+---
+
+© 2026 Jodi Paige-Lee / Interstitial Studios. All rights reserved.
