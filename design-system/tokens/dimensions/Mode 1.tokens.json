@@ -1,0 +1,121 @@
+{
+  "space": {
+    "xs": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Tightest gap, such as between an icon and its label.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:731",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-xs)"
+        }
+      }
+    },
+    "sm": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "Gap between closely related items, such as tags in a row.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:735",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-sm)"
+        }
+      }
+    },
+    "md": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "Gap between parts inside a component, such as a banner’s headline and sentence.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:738",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-md)"
+        }
+      }
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 16,
+      "$description": "Padding inside banners and cards.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:741",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-lg)"
+        }
+      }
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 24,
+      "$description": "Gap between separate components, such as between finding cards.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:744",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-xl)"
+        }
+      }
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 32,
+      "$description": "Gap between major sections of the report.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:747",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-2xl)"
+        }
+      }
+    }
+  },
+  "radius": {
+    "sm": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "Corners on small elements, such as tags and buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:750",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-sm)"
+        }
+      }
+    },
+    "md": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "Corners on banners and cards.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:1:754",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-md)"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

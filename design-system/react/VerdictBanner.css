@@ -1,0 +1,91 @@
+/* Requires build/tokens.css. Tokens only: no hex colors, no pixel values
+   except the 24px icon size. */
+
+.verdict-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--verdict-banner-background);
+}
+
+.verdict-banner--block {
+  --verdict-banner-background: var(--verdict-block-background);
+  --verdict-banner-accent: var(--verdict-block-accent);
+  --verdict-banner-text: var(--verdict-block-text);
+}
+
+.verdict-banner--clean {
+  --verdict-banner-background: var(--verdict-clean-background);
+  --verdict-banner-accent: var(--verdict-clean-accent);
+  --verdict-banner-text: var(--verdict-clean-text);
+}
+
+.verdict-banner--findings {
+  --verdict-banner-background: var(--verdict-findings-background);
+  --verdict-banner-accent: var(--verdict-findings-accent);
+  --verdict-banner-text: var(--verdict-findings-text);
+}
+
+.verdict-banner--hold {
+  --verdict-banner-background: var(--verdict-hold-background);
+  --verdict-banner-accent: var(--verdict-hold-accent);
+  --verdict-banner-text: var(--verdict-hold-text);
+}
+
+.verdict-banner--decline {
+  --verdict-banner-background: var(--verdict-decline-background);
+  --verdict-banner-accent: var(--verdict-decline-accent);
+  --verdict-banner-text: var(--verdict-decline-text);
+}
+
+.verdict-banner__icon {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  /* Content-box, so the padding sits above the 24px icon. The padding is an
+     optical alignment to the headline's letters, set by eye in Figma; it is
+     intentionally not centered on the headline's line box. */
+  box-sizing: content-box;
+  padding-top: var(--space-sm);
+  fill: var(--verdict-banner-accent);
+}
+
+.verdict-banner__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-width: 0;
+}
+
+.verdict-banner__headline {
+  margin: 0;
+  font-family: var(--headline-medium-font-family);
+  font-size: var(--headline-medium-font-size);
+  line-height: var(--headline-medium-line-height);
+  font-weight: var(--headline-medium-font-weight);
+  letter-spacing: var(--headline-medium-letter-spacing);
+  color: var(--verdict-banner-accent);
+}
+
+.verdict-banner__message {
+  margin: 0;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  line-height: var(--body-large-line-height);
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  color: var(--verdict-banner-text);
+}
+
+/* Browsers drop backgrounds when printing, so print gets an outline on all
+   four sides in the accent color. tokens.css applies Dark values on screen
+   only, so this is always the Light accent. "thin" is one CSS pixel
+   (CSS Backgrounds 3). */
+@media print {
+  .verdict-banner {
+    outline: thin solid var(--verdict-banner-accent);
+    break-inside: avoid;
+  }
+}

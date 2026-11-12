@@ -1,0 +1,67 @@
+/* Demo page chrome only. The page colors here aren't design tokens yet. */
+:root {
+  color-scheme: light;
+  --demo-page: #ffffff;
+  --demo-ink: #1a1b20;
+  --demo-muted: #5c5f6a;
+}
+
+@media screen {
+  [data-theme="dark"] {
+    color-scheme: dark;
+    --demo-page: #121316;
+    --demo-ink: #e3e4ea;
+    --demo-muted: #a3a6b1;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--demo-page);
+  color: var(--demo-ink);
+  font-family: var(--body-large-font-family);
+}
+
+.demo {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.demo__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.demo__header h1 {
+  margin: 0;
+  font-family: var(--headline-medium-font-family);
+  font-weight: 400;
+}
+
+.demo__header button {
+  font: inherit;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-sm);
+  border: thin solid var(--demo-muted);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.demo__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.demo__item code {
+  color: var(--demo-muted);
+  font-size: 0.875rem;
+}
