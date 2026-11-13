@@ -3,6 +3,9 @@ import { createRoot } from "react-dom/client";
 import "../build/tokens.css";
 import "./demo.css";
 import VerdictBanner from "../react/VerdictBanner.jsx";
+import SeverityTag from "../react/SeverityTag.jsx";
+
+const SEVERITIES = ["block", "flag"];
 
 const EXAMPLES = [
   {
@@ -52,15 +55,25 @@ function Demo() {
   return (
     <main className="demo">
       <header className="demo__header">
-        <h1>VerdictBanner</h1>
+        <h1>Design system</h1>
         <button type="button" onClick={() => setTheme(next)}>
           Switch to {next} mode
         </button>
       </header>
+      <h2 className="demo__section">VerdictBanner</h2>
       {EXAMPLES.map((example) => (
         <div key={example.verdict} className="demo__item">
           <code>verdict="{example.verdict}"</code>
           <VerdictBanner {...example} />
+        </div>
+      ))}
+      <h2 className="demo__section">SeverityTag</h2>
+      {SEVERITIES.map((severity) => (
+        <div key={severity} className="demo__item">
+          <code>severity="{severity}"</code>
+          <div>
+            <SeverityTag severity={severity} />
+          </div>
         </div>
       ))}
     </main>

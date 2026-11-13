@@ -1,5 +1,5 @@
 /* Requires build/tokens.css. Tokens only: no hex colors, no pixel values
-   except the 24px icon size. */
+   except the 22px icon width. */
 
 .verdict-banner {
   display: flex;
@@ -8,6 +8,9 @@
   padding: var(--space-lg);
   border-radius: var(--radius-md);
   background: var(--verdict-banner-background);
+  /* The shape's width (the viewBox is cropped to the shape). VerdictIcon
+     reads it through its width prop; the height follows the shape. */
+  --verdict-banner-icon-width: 22px;
 }
 
 .verdict-banner--block {
@@ -42,9 +45,7 @@
 
 .verdict-banner__icon {
   flex: none;
-  width: 24px;
-  height: 24px;
-  /* Content-box, so the padding sits above the 24px icon. The padding is an
+  /* Content-box, so the padding sits above the icon. The padding is an
      optical alignment to the headline's letters, set by eye in Figma; it is
      intentionally not centered on the headline's line box. */
   box-sizing: content-box;

@@ -22,7 +22,7 @@ COLLECTIONS = ["verdict", "dimensions"]
 
 GOOGLE_FONTS = (
     "https://fonts.googleapis.com/css2"
-    "?family=Barlow:wght@400&family=Barlow+Condensed:wght@400&display=swap"
+    "?family=Barlow:wght@400;500&family=Barlow+Condensed:wght@400&display=swap"
 )
 
 # Not in the Figma exports yet. Name, family stack, size, line height,
@@ -30,6 +30,7 @@ GOOGLE_FONTS = (
 TEXT_STYLES = [
     ("headline-medium", '"Barlow Condensed", "Arial Narrow", sans-serif', 28, 36, 400, 0),
     ("body-large", '"Barlow", system-ui, sans-serif', 16, 24, 400, 0.5),
+    ("label-large", '"Barlow", system-ui, sans-serif', 14, 20, 500, 0.1),
 ]
 
 

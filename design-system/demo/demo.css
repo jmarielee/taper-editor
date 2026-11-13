@@ -55,6 +55,12 @@ body {
   cursor: pointer;
 }
 
+.demo__section {
+  margin: 0;
+  font-family: var(--headline-medium-font-family);
+  font-weight: 400;
+}
+
 .demo__item {
   display: flex;
   flex-direction: column;

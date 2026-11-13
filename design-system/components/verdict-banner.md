@@ -37,7 +37,7 @@ These match the checker's overall verdicts (CLEAN, FINDINGS, HOLD, BLOCK) plus D
 ## Anatomy
 
 - **Container:** a `<section>`. Background `verdict/{verdict}/background`, padding `space/lg`, corner radius `radius/md`.
-- **Icon:** Material Symbols, filled, weight 400, 24 × 24, color `verdict/{verdict}/accent`, `aria-hidden="true"`. Sits left of the text with a gap of `space/md`. Top padding `space/sm`: this is an optical alignment to the headline's letters, set by eye in Figma. It is intentionally not centered on the headline's line box.
+- **Icon:** Material Symbols, filled, weight 400. Every shape is drawn 22px wide, with its height following the shape, so all five icons match in width (this matches Figma). In code, crop each icon's viewBox tightly to its shape and set the width to 22px. Color `verdict/{verdict}/accent`, `aria-hidden="true"`. Sits left of the text with a gap of `space/md`. Top padding `space/sm`: this is an optical alignment to the headline's letters, set by eye in Figma. It is intentionally not centered on the headline's line box.
 - **Headline:** an `<h2>`. Text style `headline/medium`: Barlow Condensed, 28/36, weight 400. Color `verdict/{verdict}/accent`. The report's own title is the `<h1>`.
 - **Message:** a `<p>`. Text style `body/large`: Barlow, 16/24, weight 400. Color `verdict/{verdict}/text`. Gap from the headline: `space/xs`.
 - **Letter spacing:** 0 for `headline/medium` and 0.5px for `body/large` (Material's defaults, confirmed in the Figma styles). Typography isn't exported from Figma yet, so these values live in build-tokens.py for now. When Figma exports them, remove them from the script so they're defined in one place.
@@ -67,10 +67,10 @@ CSS variable names come from the Figma variable path: slashes and spaces become 
 
 1. **One per report, at the top.** Every report has exactly one VerdictBanner, before any findings.
 2. **Color never carries meaning alone.** Every banner shows the icon, the verdict word in the headline, and the message. Reports are read on phones, laptops, and paper, sometimes printed in black and white.
-3. **Tokens only.** Use the variables named above. Never type a hex color or a pixel value, except the 24 × 24 icon size.
+3. **Tokens only.** Use the variables named above. Never type a hex color or a pixel value, except the 22px icon width.
 4. **No left accent stripes, and no outline on screen.** The soft tint, icon, and words do the work.
 5. **Print always uses Light values**, even if the page is in dark mode, because paper is white. Browsers drop background colors when printing, so in print the banner gets a 1px outline on all four sides in the Light accent color.
-6. **Shapes are reserved.** Only `block` uses the octagon. Only `findings` uses the triangle.
+6. **Shapes are reserved.** The octagon means block, and the triangle means findings, here and in SeverityTag (where it marks a flag). Don't use either shape for anything else.
 7. **Finish yellow is never a verdict color.** It belongs to the brand (the finish band and the main button).
 8. **Sentence case.** No all-caps headlines.
 9. **Hold asks one question.** The message for `hold` is a single question, never a statement or a list.
