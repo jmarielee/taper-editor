@@ -18,6 +18,8 @@
   --verdict-decline-background: #f2f3f7;
   --verdict-decline-accent: #434750;
   --verdict-decline-text: #1a1b20;
+  --neutral-container-background: #e8e7ee;
+  --neutral-container-text: #1a1b20;
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 12px;
@@ -60,6 +62,8 @@
     --verdict-decline-background: #1e1f24;
     --verdict-decline-accent: #c4c6d2;
     --verdict-decline-text: #dce6f7;
+    --neutral-container-background: #282a2e;
+    --neutral-container-text: #e3e2e8;
   }
 }
 
@@ -80,5 +84,7 @@
     --verdict-decline-background: #1e1f24;
     --verdict-decline-accent: #c4c6d2;
     --verdict-decline-text: #dce6f7;
+    --neutral-container-background: #282a2e;
+    --neutral-container-text: #e3e2e8;
   }
 }

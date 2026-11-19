@@ -18,7 +18,7 @@ HERE = Path(__file__).resolve().parent
 TOKENS = HERE / "tokens"
 OUT = HERE / "build" / "tokens.css"
 
-COLLECTIONS = ["verdict", "dimensions"]
+COLLECTIONS = ["verdict", "neutral", "dimensions"]
 
 GOOGLE_FONTS = (
     "https://fonts.googleapis.com/css2"

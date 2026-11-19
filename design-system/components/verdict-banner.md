@@ -69,7 +69,7 @@ CSS variable names come from the Figma variable path: slashes and spaces become 
 2. **Color never carries meaning alone.** Every banner shows the icon, the verdict word in the headline, and the message. Reports are read on phones, laptops, and paper, sometimes printed in black and white.
 3. **Tokens only.** Use the variables named above. Never type a hex color or a pixel value, except the 22px icon width.
 4. **No left accent stripes, and no outline on screen.** The soft tint, icon, and words do the work.
-5. **Print always uses Light values**, even if the page is in dark mode, because paper is white. Browsers drop background colors when printing, so in print the banner gets a 1px outline on all four sides in the Light accent color.
+5. **Print always uses Light values**, even if the page is in dark mode, because paper is white. Browsers drop background colors when printing, so in print the banner gets a thin outline on all four sides in the Light accent color. In code, use the CSS keyword thin, not 1px, because check-tokens.py rejects typed pixel values.
 6. **Shapes are reserved.** The octagon means block, and the triangle means findings, here and in SeverityTag (where it marks a flag). Don't use either shape for anything else.
 7. **Finish yellow is never a verdict color.** It belongs to the brand (the finish band and the main button).
 8. **Sentence case.** No all-caps headlines.

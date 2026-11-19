@@ -1,0 +1,30 @@
+/* Requires build/tokens.css. Tokens only: no hex colors, no pixel values. */
+
+.quote-block {
+  margin: 0;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--neutral-container-background);
+}
+
+.quote-block__text {
+  margin: 0;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  line-height: var(--body-large-line-height);
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  color: var(--neutral-container-text);
+  overflow-wrap: break-word;
+}
+
+/* Browsers drop backgrounds when printing, so print gets an outline on all
+   four sides in the text color. tokens.css applies Dark values on screen
+   only, so this is always the Light value. "thin" is one CSS pixel
+   (CSS Backgrounds 3). */
+@media print {
+  .quote-block {
+    outline: thin solid var(--neutral-container-text);
+    break-inside: avoid;
+  }
+}

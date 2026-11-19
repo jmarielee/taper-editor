@@ -56,7 +56,7 @@ Same rule as VerdictBanner: slashes and spaces become hyphens, everything is low
 3. **Tokens only.** The one allowed exception is the 12px icon width.
 4. **Shapes are reserved.** The octagon means block, and the triangle means findings or flag, in both VerdictBanner and SeverityTag. Don't use either shape for anything else.
 5. **Sentence case:** "Block" and "Flag," never all caps.
-6. **Print always uses Light values,** with a 1px outline on all four sides in the accent color, because browsers drop background colors when printing. No page-break rule is needed; the tag is too small to split.
+6. **Print always uses Light values,** with a thin outline on all four sides in the accent color, because browsers drop background colors when printing. No page-break rule is needed; the tag is too small to split. In code, use the CSS keyword thin, not 1px, because check-tokens.py rejects typed pixel values.
 7. **No other severities.** Clean, hold, and decline describe the whole report, so they belong to VerdictBanner, not to a tag.
 
 ## Right and wrong

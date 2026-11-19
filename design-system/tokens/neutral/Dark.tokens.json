@@ -1,0 +1,52 @@
+{
+  "container": {
+    "background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1568627506494522,
+          0.16470588743686676,
+          0.18039216101169586
+        ],
+        "alpha": 1,
+        "hex": "#282A2E"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:13:28",
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-container-background)"
+        }
+      }
+    },
+    "text": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8901960849761963,
+          0.886274516582489,
+          0.9098039269447327
+        ],
+        "alpha": 1,
+        "hex": "#E3E2E8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:13:30",
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-container-text)"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Dark"
+  }
+}

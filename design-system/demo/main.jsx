@@ -4,6 +4,16 @@ import "../build/tokens.css";
 import "./demo.css";
 import VerdictBanner from "../react/VerdictBanner.jsx";
 import SeverityTag from "../react/SeverityTag.jsx";
+import QuoteBlock from "../react/QuoteBlock.jsx";
+
+// Plan quotes copied word for word from report-detroit-half-pass.md,
+// findings 3 and 4 (extracted by script, not retyped).
+const QUOTE_SINGLE = "you will be positioned to cross the finish line comfortably.";
+const QUOTE_LONG =
+  "Keep it moderate. Avoid playing four hours or repeatedly chasing every difficult ball while your running volume is climbing.";
+const QUOTE_FIRST =
+  "You have 13 weeks until Sunday, October 18, 2026 — enough time to finish the Detroit half comfortably…";
+const QUOTE_LATER = "you will be positioned to cross the finish line comfortably.";
 
 const SEVERITIES = ["block", "flag"];
 
@@ -76,6 +86,23 @@ function Demo() {
           </div>
         </div>
       ))}
+      <h2 className="demo__section">QuoteBlock</h2>
+      <div className="demo__item">
+        <code>One quote</code>
+        <QuoteBlock quote={QUOTE_SINGLE} />
+      </div>
+      <div className="demo__item">
+        <code>Long quote that wraps</code>
+        <QuoteBlock quote={QUOTE_LONG} />
+      </div>
+      <div className="demo__item">
+        <code>Two quotes, stacked</code>
+        <div className="demo__stack">
+          <QuoteBlock quote={QUOTE_FIRST} />
+          <p className="demo__bridge">and later:</p>
+          <QuoteBlock quote={QUOTE_LATER} />
+        </div>
+      </div>
     </main>
   );
 }

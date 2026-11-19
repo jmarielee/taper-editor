@@ -67,6 +67,22 @@ body {
   gap: var(--space-sm);
 }
 
+/* Stands in for FindingCard, which sets the space between quote blocks. */
+.demo__stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* The editor's own words between two quotes: plain text, outside any block. */
+.demo__bridge {
+  margin: 0;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  line-height: var(--body-large-line-height);
+  letter-spacing: var(--body-large-letter-spacing);
+}
+
 .demo__item code {
   color: var(--demo-muted);
   font-size: 0.875rem;
