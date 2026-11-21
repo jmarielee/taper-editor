@@ -30,6 +30,8 @@ GOOGLE_FONTS = (
 TEXT_STYLES = [
     ("headline-medium", '"Barlow Condensed", "Arial Narrow", sans-serif', 28, 36, 400, 0),
     ("body-large", '"Barlow", system-ui, sans-serif', 16, 24, 400, 0.5),
+    ("body-medium", '"Barlow", system-ui, sans-serif', 14, 20, 400, 0.25),
+    ("title-medium", '"Barlow", system-ui, sans-serif', 16, 24, 500, 0.15),
     ("label-large", '"Barlow", system-ui, sans-serif', 14, 20, 500, 0.1),
 ]
 

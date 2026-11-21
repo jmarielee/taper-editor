@@ -5,6 +5,8 @@ import "./demo.css";
 import VerdictBanner from "../react/VerdictBanner.jsx";
 import SeverityTag from "../react/SeverityTag.jsx";
 import QuoteBlock from "../react/QuoteBlock.jsx";
+import RaceWeekLoad from "../react/RaceWeekLoad.jsx";
+import ComparisonBadge from "../react/ComparisonBadge.jsx";
 
 // Plan quotes copied word for word from report-detroit-half-pass.md,
 // findings 3 and 4 (extracted by script, not retyped).
@@ -16,6 +18,43 @@ const QUOTE_FIRST =
 const QUOTE_LATER = "you will be positioned to cross the finish line comfortably.";
 
 const SEVERITIES = ["block", "flag"];
+
+// Race-week numbers copied exactly as printed by `python3 checker.py <ledger>`
+// (run 2026-11-20). Each plan's two [RAMP] lines are quoted above it.
+const RACE_WEEK_EXAMPLES = [
+  {
+    // trap-plan.ledger:
+    // [RAMP] preceding daily avg = 45.7 min over 7 days; race-week daily avg = 47.1 min
+    // [RAMP] preceding max day = 75 min; race-week max training day = 90 min
+    plan: "Trap plan",
+    raceWeekAverage: "47.1",
+    beforeAverage: "45.7",
+    raceWeekBiggestDay: "90",
+    beforeBiggestDay: "75",
+  },
+  {
+    // detroit-half.ledger:
+    // [RAMP] preceding daily avg = 10.2 min over 84 days; race-week daily avg = 6.4 min
+    // [RAMP] preceding max day = 45 min; race-week max training day = 25 min
+    plan: "Detroit half",
+    raceWeekAverage: "6.4",
+    beforeAverage: "10.2",
+    raceWeekBiggestDay: "25",
+    beforeBiggestDay: "45",
+  },
+  {
+    // pam-triathlon.ledger:
+    // [RAMP] preceding daily avg = 9.1 min over 76 days; race-week daily avg = 13.6 min
+    // [RAMP] preceding max day = 90 min; race-week max training day = 30 min
+    plan: "Pam triathlon",
+    raceWeekAverage: "13.6",
+    beforeAverage: "9.1",
+    raceWeekBiggestDay: "30",
+    beforeBiggestDay: "90",
+  },
+];
+
+const RESULTS = ["lighter", "heavier", "same"];
 
 const EXAMPLES = [
   {
@@ -103,6 +142,22 @@ function Demo() {
           <QuoteBlock quote={QUOTE_LATER} />
         </div>
       </div>
+      <h2 className="demo__section">RaceWeekLoad</h2>
+      {RACE_WEEK_EXAMPLES.map(({ plan, ...numbers }) => (
+        <div key={plan} className="demo__item demo__item--keep">
+          <code>{plan}</code>
+          <RaceWeekLoad {...numbers} />
+        </div>
+      ))}
+      <h2 className="demo__section">ComparisonBadge</h2>
+      {RESULTS.map((result) => (
+        <div key={result} className="demo__item">
+          <code>result="{result}"</code>
+          <div>
+            <ComparisonBadge result={result} />
+          </div>
+        </div>
+      ))}
     </main>
   );
 }

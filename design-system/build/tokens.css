@@ -20,6 +20,9 @@
   --verdict-decline-text: #1a1b20;
   --neutral-container-background: #e8e7ee;
   --neutral-container-text: #1a1b20;
+  --neutral-container-text-muted: #434750;
+  --neutral-container-divider: #c4c6d2;
+  --neutral-container-badge-background: #e3e2e8;
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 12px;
@@ -38,6 +41,16 @@
   --body-large-line-height: 24px;
   --body-large-font-weight: 400;
   --body-large-letter-spacing: 0.5px;
+  --body-medium-font-family: "Barlow", system-ui, sans-serif;
+  --body-medium-font-size: 14px;
+  --body-medium-line-height: 20px;
+  --body-medium-font-weight: 400;
+  --body-medium-letter-spacing: 0.25px;
+  --title-medium-font-family: "Barlow", system-ui, sans-serif;
+  --title-medium-font-size: 16px;
+  --title-medium-line-height: 24px;
+  --title-medium-font-weight: 500;
+  --title-medium-letter-spacing: 0.15px;
   --label-large-font-family: "Barlow", system-ui, sans-serif;
   --label-large-font-size: 14px;
   --label-large-line-height: 20px;
@@ -64,6 +77,9 @@
     --verdict-decline-text: #dce6f7;
     --neutral-container-background: #282a2e;
     --neutral-container-text: #e3e2e8;
+    --neutral-container-text-muted: #c4c6d2;
+    --neutral-container-divider: #434750;
+    --neutral-container-badge-background: #333539;
   }
 }
 
@@ -86,5 +102,8 @@
     --verdict-decline-text: #dce6f7;
     --neutral-container-background: #282a2e;
     --neutral-container-text: #e3e2e8;
+    --neutral-container-text-muted: #c4c6d2;
+    --neutral-container-divider: #434750;
+    --neutral-container-badge-background: #333539;
   }
 }

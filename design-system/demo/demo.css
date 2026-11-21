@@ -87,3 +87,10 @@ body {
   color: var(--demo-muted);
   font-size: 0.875rem;
 }
+
+/* In print, keep a plan's label on the same page as its RaceWeekLoad. */
+@media print {
+  .demo__item--keep {
+    break-inside: avoid;
+  }
+}

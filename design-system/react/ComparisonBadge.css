@@ -1,0 +1,44 @@
+/* Requires build/tokens.css. Tokens only: no hex colors, no pixel values. */
+
+.comparison-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  background: var(--comparison-badge-background);
+  font-family: var(--label-large-font-family);
+  font-size: var(--label-large-font-size);
+  line-height: var(--label-large-line-height);
+  font-weight: var(--label-large-font-weight);
+  letter-spacing: var(--label-large-letter-spacing);
+  color: var(--comparison-badge-text);
+}
+
+/* A lighter race week is what lets a plan pass, so it may use the clean
+   colors. A heavier one is what blocks a plan, so it may use the block
+   colors. A tie stays neutral: the checker treats ties differently on each
+   measure, so the badge doesn't hint at a verdict. */
+.comparison-badge--lighter {
+  --comparison-badge-background: var(--verdict-clean-background);
+  --comparison-badge-text: var(--verdict-clean-accent);
+}
+
+.comparison-badge--heavier {
+  --comparison-badge-background: var(--verdict-block-background);
+  --comparison-badge-text: var(--verdict-block-accent);
+}
+
+.comparison-badge--same {
+  --comparison-badge-background: var(--neutral-container-badge-background);
+  --comparison-badge-text: var(--neutral-container-text);
+}
+
+/* Browsers drop backgrounds when printing, so print gets an outline on all
+   four sides in the badge's own text color. tokens.css applies Dark values
+   on screen only, so this is always the Light value. "thin" is one CSS
+   pixel (CSS Backgrounds 3). */
+@media print {
+  .comparison-badge {
+    outline: thin solid var(--comparison-badge-text);
+  }
+}

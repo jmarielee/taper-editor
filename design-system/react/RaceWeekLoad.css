@@ -1,0 +1,126 @@
+/* Requires build/tokens.css. Tokens only: no hex colors, no pixel values.
+   Borders use the keyword thin, which is one CSS pixel (CSS Backgrounds 3). */
+
+.race-week-load {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Header */
+
+.race-week-load__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.race-week-load__name {
+  font-family: var(--label-large-font-family);
+  font-size: var(--label-large-font-size);
+  line-height: var(--label-large-line-height);
+  font-weight: var(--label-large-font-weight);
+  letter-spacing: var(--label-large-letter-spacing);
+  color: var(--neutral-container-text);
+}
+
+.race-week-load__source {
+  padding-left: var(--space-sm);
+  border-left: thin solid var(--neutral-container-divider);
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  line-height: var(--body-medium-line-height);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  color: var(--neutral-container-text-muted);
+}
+
+/* Box: the same quiet surface as QuoteBlock, because both show evidence. */
+
+.race-week-load__box {
+  padding: var(--space-xs) var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--neutral-container-background);
+}
+
+/* Groups: stacked with no gap. Space above each label is the only thing
+   that separates the groups. */
+
+.race-week-load__group-label {
+  margin: 0;
+  padding-top: var(--space-md);
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  line-height: var(--body-medium-line-height);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  color: var(--neutral-container-text-muted);
+}
+
+.race-week-load__group + .race-week-load__group .race-week-load__group-label {
+  padding-top: var(--space-xl);
+}
+
+.race-week-load__list {
+  margin: 0;
+}
+
+/* Rows */
+
+.race-week-load__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Keeps the label and value from touching on a very narrow screen. */
+  gap: var(--space-sm);
+  padding: var(--space-sm) 0;
+}
+
+/* Thin lines help the eye travel from a label to its number. The result
+   row has no line. */
+.race-week-load__row--number {
+  border-bottom: thin solid var(--neutral-container-divider);
+}
+
+.race-week-load__label {
+  margin: 0;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  line-height: var(--body-large-line-height);
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  color: var(--neutral-container-text);
+}
+
+.race-week-load__value {
+  margin: 0;
+  flex: none;
+  font-family: var(--title-medium-font-family);
+  font-size: var(--title-medium-font-size);
+  line-height: var(--title-medium-line-height);
+  font-weight: var(--title-medium-font-weight);
+  letter-spacing: var(--title-medium-letter-spacing);
+  color: var(--neutral-container-text);
+}
+
+.race-week-load__badge {
+  margin: 0;
+  flex: none;
+  display: flex;
+}
+
+/* Browsers drop backgrounds when printing, so print gets an outline on all
+   four sides of the box in the text color. tokens.css applies Dark values
+   on screen only, so this is always the Light value. ComparisonBadge adds
+   its own print outline. */
+@media print {
+  .race-week-load {
+    break-inside: avoid;
+  }
+
+  .race-week-load__box {
+    outline: thin solid var(--neutral-container-text);
+  }
+}

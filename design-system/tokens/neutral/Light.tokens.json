@@ -56,6 +56,93 @@
           "targetVariableSetName": "material-theme"
         }
       }
+    },
+    "text-muted": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.26274511218070984,
+          0.27843138575553894,
+          0.3137255012989044
+        ],
+        "alpha": 1,
+        "hex": "#434750"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:29:31",
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-container-text-muted)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7f8a5a76056b8d8f78728ad4b30869cfd6bca2af/-1:-1",
+          "targetVariableName": "Schemes/On Surface Variant",
+          "targetVariableSetId": "VariableCollectionId:79122995f450e8e6058a62bf8138e01b0571181e/-1:-1",
+          "targetVariableSetName": "material-theme"
+        }
+      }
+    },
+    "divider": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7686274647712708,
+          0.7764706015586853,
+          0.8235294222831726
+        ],
+        "alpha": 1,
+        "hex": "#C4C6D2"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:29:35",
+        "com.figma.scopes": [
+          "STROKE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--neutral-container-divider)"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:6781e416c0d35db2ae81cc837676a7b365aae21f/-1:-1",
+          "targetVariableName": "Schemes/Outline Variant",
+          "targetVariableSetId": "VariableCollectionId:79122995f450e8e6058a62bf8138e01b0571181e/-1:-1",
+          "targetVariableSetName": "material-theme"
+        }
+      }
+    },
+    "badge": {
+      "background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8901960849761963,
+            0.886274516582489,
+            0.9098039269447327
+          ],
+          "alpha": 1,
+          "hex": "#E3E2E8"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:29:39",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "var(--neutral-container-badge-background)"
+          },
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2b4b86ca0ff2ed0a78bbe2551ce55b0a827ba662/-1:-1",
+            "targetVariableName": "Schemes/Surface Container Highest",
+            "targetVariableSetId": "VariableCollectionId:79122995f450e8e6058a62bf8138e01b0571181e/-1:-1",
+            "targetVariableSetName": "material-theme"
+          }
+        }
+      }
     }
   },
   "$extensions": {
