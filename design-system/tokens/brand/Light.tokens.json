@@ -1,0 +1,79 @@
+{
+  "chart": {
+    "build-weeks": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3686274588108063,
+          0.49803921580314636,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#5E7FB8"
+      },
+      "$description": "Week bars before race week in the race-week chart. Same in both modes.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:53:71",
+        "com.figma.scopes": [
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--brand-chart-build-weeks)"
+        }
+      }
+    },
+    "race-week": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.07058823853731155,
+          0.22745098173618317,
+          0.47843137383461
+        ],
+        "alpha": 1,
+        "hex": "#123A7A"
+      },
+      "$description": "The race-week bar. Light is the brand navy.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:53:72",
+        "com.figma.scopes": [
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--brand-chart-race-week)"
+        }
+      }
+    }
+  },
+  "race-day": {
+    "highlight": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9098039269447327,
+          0.6901960968971252
+        ],
+        "alpha": 1,
+        "hex": "#FAE8B0"
+      },
+      "$description": "Race-day highlight in the day strip and date table. Finish yellow mixed onto the page ahead of time, 38% in light and 30% in dark.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:53:73",
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--brand-race-day-highlight)"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Light"
+  }
+}

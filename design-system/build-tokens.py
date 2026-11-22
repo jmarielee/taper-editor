@@ -18,19 +18,21 @@ HERE = Path(__file__).resolve().parent
 TOKENS = HERE / "tokens"
 OUT = HERE / "build" / "tokens.css"
 
-COLLECTIONS = ["verdict", "neutral", "dimensions"]
+COLLECTIONS = ["verdict", "neutral", "brand", "dimensions"]
 
 GOOGLE_FONTS = (
     "https://fonts.googleapis.com/css2"
-    "?family=Barlow:wght@400;500&family=Barlow+Condensed:wght@400&display=swap"
+    "?family=Barlow:ital,wght@0,400;0,500;1,400;1,500&family=Barlow+Condensed:wght@400&display=swap"
 )
 
 # Not in the Figma exports yet. Name, family stack, size, line height,
-# weight, letter spacing (all in px except weight).
+# weight, letter spacing (all in px except weight), and an optional font
+# style. A style gets a font-style variable only when it sets one.
 TEXT_STYLES = [
     ("headline-medium", '"Barlow Condensed", "Arial Narrow", sans-serif', 28, 36, 400, 0),
     ("body-large", '"Barlow", system-ui, sans-serif', 16, 24, 400, 0.5),
     ("body-medium", '"Barlow", system-ui, sans-serif', 14, 20, 400, 0.25),
+    ("body-small-italic", '"Barlow", system-ui, sans-serif', 12, 16, 400, 0.4, "italic"),
     ("title-medium", '"Barlow", system-ui, sans-serif', 16, 24, 500, 0.15),
     ("label-large", '"Barlow", system-ui, sans-serif', 14, 20, 500, 0.1),
 ]
@@ -50,9 +52,52 @@ def var_name(collection, path, token):
     return "--" + "-".join(kebab(p) for p in [collection, *path])
 
 
-def css_value(collection, path, token):
+REFERENCE = re.compile(r"\{([^{}]+)\}")
+
+
+def resolve_reference(collection, path, token, tokens):
+    """Return the CSS var() for a token whose $value is "{group.token}".
+
+    tokens maps each path in the same collection and mode to its token.
+    Only references to a token in the same collection are accepted.
+    """
+    where = f"{collection}/{'/'.join(path)}"
+    seen = [path]
+    current = token
+    while True:
+        match = REFERENCE.fullmatch(current["$value"].strip())
+        if not match:
+            sys.exit(f"Token {where} has string value {current['$value']!r}; expected a reference like {{group.token}}")
+        target_path = tuple(match.group(1).split("."))
+        target = tokens.get(target_path)
+        if target is None:
+            sys.exit(
+                f"Token {where} references {current['$value']!r}, which is not a token in the "
+                f"{collection!r} collection. Only references within the same collection are supported."
+            )
+        if target_path in seen:
+            chain = " -> ".join(".".join(p) for p in [*seen, target_path])
+            sys.exit(f"Token {where} has a circular reference: {chain}")
+        if target["$type"] != token["$type"]:
+            sys.exit(
+                f"Token {where} ({token['$type']}) references {'.'.join(target_path)} "
+                f"({target['$type']}); types must match"
+            )
+        if seen == [path]:
+            first = target_path
+        seen.append(target_path)
+        if not isinstance(target["$value"], str):
+            break
+        current = target
+    # Point at the direct target; CSS follows any further chain itself.
+    return f"var({var_name(collection, first, tokens[first])})"
+
+
+def css_value(collection, path, token, tokens):
     kind, value = token["$type"], token["$value"]
     where = f"{collection}/{'/'.join(path)}"
+    if isinstance(value, str):
+        return resolve_reference(collection, path, token, tokens)
     if kind == "color":
         if not isinstance(value, dict) or "hex" not in value:
             sys.exit(f"Color token {where} has no hex value")
@@ -84,9 +129,10 @@ def load_collection(name):
     for f in files:
         data = json.loads(f.read_text(encoding="utf-8"))
         mode = data.get("$extensions", {}).get("com.figma.modeName", f.name.split(".")[0])
+        tokens = dict(flatten(data))
         modes[mode] = [
-            (var_name(name, path, token), css_value(name, path, token))
-            for path, token in flatten(data)
+            (var_name(name, path, token), css_value(name, path, token, tokens))
+            for path, token in tokens.items()
         ]
     if len(modes) == 1:
         return next(iter(modes.values())), []
@@ -113,7 +159,7 @@ def main():
         light += l
         dark += d
 
-    for name, family, size, line_height, weight, tracking in TEXT_STYLES:
+    for name, family, size, line_height, weight, tracking, *style in TEXT_STYLES:
         light += [
             (f"--{name}-font-family", family),
             (f"--{name}-font-size", f"{size}px"),
@@ -121,6 +167,8 @@ def main():
             (f"--{name}-font-weight", str(weight)),
             (f"--{name}-letter-spacing", f"{tracking:g}px"),
         ]
+        if style:
+            light.append((f"--{name}-font-style", style[0]))
 
     names = [n for n, _ in light]
     dupes = sorted({n for n in names if names.count(n) > 1})

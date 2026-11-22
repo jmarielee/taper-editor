@@ -3,7 +3,7 @@
     "xs": {
       "$type": "number",
       "$value": 4,
-      "$description": "Tightest gap, such as between an icon and its label.",
+      "$description": "Tightest gap, such as between a banner headline and its message.",
       "$extensions": {
         "com.figma.variableId": "VariableID:1:731",
         "com.figma.scopes": [
@@ -17,7 +17,7 @@
     "sm": {
       "$type": "number",
       "$value": 8,
-      "$description": "Gap between closely related items, such as tags in a row.",
+      "$description": "Gap between closely related items, such as a part label and its text.",
       "$extensions": {
         "com.figma.variableId": "VariableID:1:735",
         "com.figma.scopes": [
@@ -31,7 +31,7 @@
     "md": {
       "$type": "number",
       "$value": 12,
-      "$description": "Gap between parts inside a component, such as a banner’s headline and sentence.",
+      "$description": "Gap between parts inside a component, such as a banner icon and its headline.",
       "$extensions": {
         "com.figma.variableId": "VariableID:1:738",
         "com.figma.scopes": [
@@ -59,7 +59,7 @@
     "xl": {
       "$type": "number",
       "$value": 24,
-      "$description": "Gap between separate components, such as between finding cards.",
+      "$description": "Padding inside the race-week box on desktop, and the gap under the banner in a one-finding report.",
       "$extensions": {
         "com.figma.variableId": "VariableID:1:744",
         "com.figma.scopes": [
@@ -73,7 +73,7 @@
     "2xl": {
       "$type": "number",
       "$value": 32,
-      "$description": "Gap between major sections of the report.",
+      "$description": "Space above each part label, and between the parts inside the race-week box.",
       "$extensions": {
         "com.figma.variableId": "VariableID:1:747",
         "com.figma.scopes": [
@@ -83,9 +83,37 @@
           "WEB": "var(--space-2xl)"
         }
       }
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": 48,
+      "$description": "Gap between major sections of the report.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:49:62",
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--space-3xl)"
+        }
+      }
     }
   },
   "radius": {
+    "xs": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Corners on the smallest marks, such as the tops of chart bars.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:52:63",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--radius-xs)"
+        }
+      }
+    },
     "sm": {
       "$type": "number",
       "$value": 8,

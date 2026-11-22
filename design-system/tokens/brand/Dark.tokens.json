@@ -1,0 +1,79 @@
+{
+  "chart": {
+    "build-weeks": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3686274588108063,
+          0.49803921580314636,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#5E7FB8"
+      },
+      "$description": "Week bars before race week in the race-week chart. Same in both modes.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:53:71",
+        "com.figma.scopes": [
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--brand-chart-build-weeks)"
+        }
+      }
+    },
+    "race-week": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6823529601097107,
+          0.7764706015586853,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#AEC6FF"
+      },
+      "$description": "The race-week bar. Light is the brand navy.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:53:72",
+        "com.figma.scopes": [
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--brand-chart-race-week)"
+        }
+      }
+    }
+  },
+  "race-day": {
+    "highlight": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3294117748737335,
+          0.2823529541492462,
+          0.12156862765550613
+        ],
+        "alpha": 1,
+        "hex": "#54481F"
+      },
+      "$description": "Race-day highlight in the day strip and date table. Finish yellow mixed onto the page ahead of time, 38% in light and 30% in dark.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:53:73",
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--brand-race-day-highlight)"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Dark"
+  }
+}
