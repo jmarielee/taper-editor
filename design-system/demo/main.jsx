@@ -17,8 +17,6 @@ const QUOTE_FIRST =
   "You have 13 weeks until Sunday, October 18, 2026 — enough time to finish the Detroit half comfortably…";
 const QUOTE_LATER = "you will be positioned to cross the finish line comfortably.";
 
-const SEVERITIES = ["block", "flag"];
-
 // Race-week numbers copied exactly as printed by `python3 checker.py <ledger>`
 // (run 2026-11-20). Each plan's two [RAMP] lines are quoted above it.
 const RACE_WEEK_EXAMPLES = [
@@ -117,14 +115,21 @@ function Demo() {
         </div>
       ))}
       <h2 className="demo__section">SeverityTag</h2>
-      {SEVERITIES.map((severity) => (
-        <div key={severity} className="demo__item">
-          <code>severity="{severity}"</code>
-          <div>
-            <SeverityTag severity={severity} />
-          </div>
+      {/* Stand-in banner boxes, not VerdictBanner: a page-colored chip
+          disappears on the demo page, so the tags sit on a banner tint. */}
+      <div className="demo__item demo__item--keep">
+        <code>On a block banner</code>
+        <div className="demo__banner demo__banner--block">
+          <SeverityTag severity="block" />
+          <SeverityTag severity="flag" />
         </div>
-      ))}
+      </div>
+      <div className="demo__item demo__item--keep">
+        <code>On a findings banner</code>
+        <div className="demo__banner demo__banner--findings">
+          <SeverityTag severity="flag" />
+        </div>
+      </div>
       <h2 className="demo__section">QuoteBlock</h2>
       <div className="demo__item">
         <code>One quote</code>

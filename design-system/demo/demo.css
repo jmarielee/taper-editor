@@ -74,6 +74,26 @@ body {
   gap: var(--space-sm);
 }
 
+/* Stand-ins for VerdictBanner's list of findings until its rework. Demo
+   chrome, not part of SeverityTag. The verdict tokens switch with the theme
+   on screen and stay Light in print, like every component. */
+.demo__banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+}
+
+.demo__banner--block {
+  background: var(--verdict-block-background);
+}
+
+.demo__banner--findings {
+  background: var(--verdict-findings-background);
+}
+
 /* The editor's own words between two quotes: plain text, outside any block. */
 .demo__bridge {
   margin: 0;
@@ -88,7 +108,8 @@ body {
   font-size: 0.875rem;
 }
 
-/* In print, keep a plan's label on the same page as its RaceWeekLoad. */
+/* In print, keep a label on the same page as the example below it
+   (a RaceWeekLoad or a stand-in banner box). */
 @media print {
   .demo__item--keep {
     break-inside: avoid;

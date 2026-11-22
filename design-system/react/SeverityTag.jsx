@@ -1,29 +1,19 @@
 import "./SeverityTag.css";
-import VerdictIcon from "./VerdictIcon.jsx";
 
-// Each severity reuses the matching VerdictBanner icon: flag findings are
-// what produce a `findings` verdict, so flag shares the triangle.
-const SEVERITIES = {
-  block: { icon: "block", word: "Block" },
-  flag: { icon: "findings", word: "Flag" },
+// The word is the whole tag. Flag uses the findings colors (see the CSS),
+// because flag findings are what produce a `findings` verdict.
+const WORDS = {
+  block: "Block",
+  flag: "Flag",
 };
 
 export default function SeverityTag({ severity }) {
-  const config = SEVERITIES[severity];
-  if (!config) {
+  const word = WORDS[severity];
+  if (!word) {
     throw new Error(
-      `SeverityTag: unknown severity "${severity}". Use one of: ${Object.keys(SEVERITIES).join(", ")}.`
+      `SeverityTag: unknown severity "${severity}". Use one of: ${Object.keys(WORDS).join(", ")}.`
     );
   }
 
-  return (
-    <span className={`severity-tag severity-tag--${severity}`}>
-      <VerdictIcon
-        name={config.icon}
-        width="var(--severity-tag-icon-width)"
-        className="severity-tag__icon"
-      />
-      <span className="severity-tag__label">{config.word}</span>
-    </span>
-  );
+  return <span className={`severity-tag severity-tag--${severity}`}>{word}</span>;
 }

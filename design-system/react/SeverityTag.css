@@ -1,47 +1,33 @@
-/* Requires build/tokens.css. Tokens only: no hex colors, no pixel values
-   except the 12px icon width. */
+/* Requires build/tokens.css. Tokens only, with no exceptions: no hex colors,
+   no pixel values. */
 
+/* A page-colored chip with a colored word. Never a verdict tint, never
+   solid, never outlined on screen. */
 .severity-tag {
   display: inline-flex;
-  align-items: center;
-  gap: var(--space-xs);
   padding: var(--space-xs) var(--space-sm);
   border-radius: var(--radius-sm);
-  background: var(--severity-tag-background);
-  /* The shape's width (the viewBox is cropped to the shape). VerdictIcon
-     reads it through its width prop; the height follows the shape. */
-  --severity-tag-icon-width: 12px;
-}
-
-.severity-tag--block {
-  --severity-tag-background: var(--verdict-block-background);
-  --severity-tag-accent: var(--verdict-block-accent);
-}
-
-/* Flag uses the findings colors: flag findings produce a findings verdict. */
-.severity-tag--flag {
-  --severity-tag-background: var(--verdict-findings-background);
-  --severity-tag-accent: var(--verdict-findings-accent);
-}
-
-.severity-tag__icon {
-  flex: none;
-  fill: var(--severity-tag-accent);
-}
-
-.severity-tag__label {
+  background: var(--neutral-page-background);
+  color: var(--severity-tag-accent);
   font-family: var(--label-large-font-family);
   font-size: var(--label-large-font-size);
   line-height: var(--label-large-line-height);
   font-weight: var(--label-large-font-weight);
   letter-spacing: var(--label-large-letter-spacing);
-  color: var(--severity-tag-accent);
 }
 
-/* Browsers drop backgrounds when printing, so print gets an outline on all
-   four sides in the accent color. tokens.css applies Dark values on screen
-   only, so this is always the Light accent. "thin" is one CSS pixel
-   (CSS Backgrounds 3). */
+.severity-tag--block {
+  --severity-tag-accent: var(--verdict-block-accent);
+}
+
+/* Flag uses the findings colors: flag findings produce a findings verdict. */
+.severity-tag--flag {
+  --severity-tag-accent: var(--verdict-findings-accent);
+}
+
+/* tokens.css applies Dark values on screen only, so print always gets the
+   Light values. The outline is a backup in case a browser or printer drops
+   the chip's fill. "thin" is one CSS pixel (CSS Backgrounds 3). */
 @media print {
   .severity-tag {
     outline: thin solid var(--severity-tag-accent);

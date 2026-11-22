@@ -3,7 +3,6 @@
 
 Allowed px values:
 - 22px, the VerdictBanner icon width, in react/VerdictBanner.css only.
-- 12px, the SeverityTag icon width, in react/SeverityTag.css only.
 
 Usage: python3 check-tokens.py   (exit 0 = clean, 1 = violations)
 """
@@ -21,7 +20,6 @@ ALLOWED_PX = set()
 # Exceptions allowed only in one file, keyed by path relative to this script.
 ALLOWED_PX_IN_FILE = {
     "react/VerdictBanner.css": {"22"},
-    "react/SeverityTag.css": {"12"},
 }
 
 
